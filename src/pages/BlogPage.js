@@ -8,12 +8,12 @@ import {
 import BlogsVisual from "../containers/VisualBlogs"
 import BlogsVisual2 from "../containers/VisualBlogs2";
 import BlogsVisual3 from "../containers/VisualBlogs3";
+import galaxy_img from "../assets/resources/img/th.jpg";
+import my_logo from "../assets/resources/img/Serverless.jpg"  
 import "./styles/Home.css";
 import "./styles/Blog.css";
 
 export default function BlogPage() {
-  const galaxy_img = require("../assets/resources/img/th.jpg");
-  const my_logo = require("../assets/resources/img/Serverless.PNG");
   
   function displayBlogs() {
     return (
@@ -28,7 +28,7 @@ export default function BlogPage() {
             <div class="row card__padding" style={{display: "flex", marginLeft: "10px"}}>
             <div class="card radius shadowDepth1" style={{maxWidth: "300px", margin: "20px"}}>
               <div class="card__image border-tlr-radius">
-                <img src={require(galaxy_img)} height="200" alt="galaxy" class="border-tlr-radius"/>
+                <img src={galaxy_img} height="200" alt="galaxy" class="border-tlr-radius"/>
                 MrDaabCom\public\galaxy3.jpg
               </div>
               <div class="card__content card__padding">
