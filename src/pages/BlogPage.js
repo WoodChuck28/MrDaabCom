@@ -32,7 +32,7 @@ export default function BlogPage() {
             <div class="row card__padding" style={{display: "flex", marginLeft: "10px"}}>
             <div class="card radius shadowDepth1" style={{maxWidth: "300px", margin: "20px"}}>
               <div class="card__image border-tlr-radius">
-                <img src={require("../assets/resources/img/galaxy3.jpg")} height="200" alt="galaxy" class="border-tlr-radius"/>
+                <img src={require("../assets/resources/img/th.jpg")} height="200" alt="galaxy" class="border-tlr-radius"/>
               </div>
               <div class="card__content card__padding">
                         <div class="card__share">
