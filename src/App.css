@@ -1,38 +1,59 @@
 .App {
+  margin-top: 15px;
+  width: 100%;
+  background: #001a00;
+}
+
+.myCarousel {
   text-align: center;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App .navbar-brand {
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar {
+  background-color:#001a00;
+  border-radius: 20px;
+  position: fixed;
+  width: 94.5%;
+  margin-top: none;
+  z-index: 2;
+  margin-bottom: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+body {
+  padding: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+h1 {
+  margin: none;
+}
+
+.myFooter {
+  position: relative;
+  height: 50px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.Physics {
+  margin-top: 35px;
+}
+
+.header {
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 760px) {
+  #myNavHeader {
+    display: none;
   }
 }
