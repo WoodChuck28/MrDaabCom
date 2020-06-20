@@ -4,9 +4,9 @@ import {
   HashRouter
 } from "react-router-dom";
 
-import CollegeBoardKine from '../containers/CBKine';
-import NotesKine from '../containers/NotesKine';
-import VocabularyKine from '../containers/VocabularyKine';
+import CollegeBoardKine from './CBKine';
+import NotesKine from './NotesKine';
+import VocabularyKine from './VocabularyKine';
 import MyMenuButton from "../components/MyMenuButton";
 import MyMenuButton2 from "../components/MyMenuButton2";
 import MyMenuButton3 from "../components/MyMenuButton3";

@@ -5,10 +5,10 @@ import {
 } from "react-router-dom";
 
 import SimsFluids from "./SimsFluids"
-import CollegeBoardFluid from '../containers/CollegeBoardDoc';
-import Notes from '../containers/Notes';
+import CollegeBoardFluid from './CollegeBoardDoc';
+import Notes from './Notes';
 import Vocabulary from './VocabularyFluids';
-import NotesOutline from "../containers/NotesOutlineFluids";
+import NotesOutline from "./NotesOutlineFluids";
 import MyMenuButton from "../components/MyMenuButton";
 import MyMenuButton2 from "../components/MyMenuButton2";
 import MyMenuButton3 from "../components/MyMenuButton3";
