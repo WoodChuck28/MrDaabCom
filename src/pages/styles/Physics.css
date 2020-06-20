@@ -1,0 +1,76 @@
+h1 {
+    text-align: center;
+}
+
+.btn {
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.iJhwIL {
+    background-color: lawngreen;
+}
+
+.Physics {
+    background-color: black;
+    background: inherit;
+}
+
+.StyledBox-sc-13pk1d4-0 .evKdmY:hover {
+    background-color: plum;
+}
+
+.gridSystem {
+    color: black;
+}
+
+
+body {
+    background-color:#354e01 ;
+}
+
+.StyledGrommet-sc-19lkkz7-0.gVQrIe {
+    background: inherit;
+}
+
+.StyledHeading-sc-1rdh4aw-0 .blIzXS .myHeader {
+    margin-top: none !important;
+}
+
+.myFooter {
+  margin-top: 300px;
+}
+
+.physHeader {
+    margin-top: 55px;
+    padding-left: 25px;
+    margin: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+    font-size: 1.6em;
+    font-weight: normal;
+    
+    background-color:#354e01;
+}
+
+.MuiPaper-root .MuiCard-root .physHeader .MuiPaper-elevation1 .MuiPaper-rounded {
+    border-width: 3px;
+}
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding-left: 20px;
+}
+
+.mainClass {
+    margin-top: 70px;
+}

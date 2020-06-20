@@ -1,0 +1,57 @@
+#EventLog b {
+    color: #388e3c;
+  }
+  
+  hr {
+    margin: 1px 10px 1px 0px;
+    border-top: 1px solid #eee;
+  }
+  
+  .e-schedule .e-schedule-toolbar .e-icon-schedule-print::before {
+    content: '\e973';
+  }
+  
+  .e-schedule .e-schedule-toolbar .e-icon-schedule-pdf::before {
+    content: '\e7c8';
+  }
+  
+  .custom-field-row {
+    margin-bottom: 20px;
+  }
+  
+  .multi-prop div {
+    padding-left: 0;
+    padding-top: 0;
+  }
+
+  .e-toolbar-left {
+    height: 42px!important;
+  }
+
+  .e-toolbar-item .e-prev  {
+    height: 42px!important;
+  }
+
+  .e-toolbar-item .e-next  {
+    height: 42px!important;
+  }
+
+  .e-toolbar .e-toolbar-items .e-toolbar-item:not(.e-separator) {
+    height: 42px!important;
+  }
+
+  .e-btn-icon .e-icon-next .e-icons {
+    height: 25px!important;
+  }
+  .e-btn-icon .e-icon-prev .e-icons {
+    height: 25px!important;
+    padding: none!important;
+  }
+
+  .span {
+    padding: none;
+  }
+
+  .e-popup-close {
+    padding: none;
+  }

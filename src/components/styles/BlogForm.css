@@ -1,0 +1,10 @@
+form {
+    align-items: center;
+    z-index: 3;
+    margin-top: 200px;
+}
+
+.textInput {
+    width: 1000px;
+    height: 200px;
+}

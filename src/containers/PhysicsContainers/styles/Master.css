@@ -1,0 +1,30 @@
+body {
+    padding: 20px;
+    margin: 0;
+  }
+
+  .header {
+    background-color: #001a00;
+    border-radius: 20px;
+  }
+  h1, h2, p, ul, li {
+    font-family: sans-serif;
+  }
+  ul.header li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    color: white;
+  }
+
+  #myLink:hover {
+    color: red;
+  }
+
+  h4 {
+    font-size: 28px;
+    color: white;
+  }
+ 
+  
+

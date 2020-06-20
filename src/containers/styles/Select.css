@@ -1,0 +1,13 @@
+form {
+    text-align: left;
+    z-index: 3;
+    margin-top: 100px;
+}
+
+.form-input {
+    width: 500px;
+}
+
+.form-label {
+    width: 200px;
+}

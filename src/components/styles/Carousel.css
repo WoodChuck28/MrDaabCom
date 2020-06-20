@@ -1,0 +1,20 @@
+.h3-responsive {
+    text-align: center;
+}
+
+.carousel-control-next-icon {
+    padding-bottom: 0px;
+}
+
+
+.view {
+    margin-top: 65px;
+}
+
+.active {
+    height: 400px;
+}
+
+img {
+    width: 80%;
+}

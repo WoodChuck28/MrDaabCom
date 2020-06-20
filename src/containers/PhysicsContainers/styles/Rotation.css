@@ -1,0 +1,35 @@
+body {
+    padding: 20px;
+    margin: 0;
+  }
+
+  .header {
+    background-color: lavender;
+    border-radius: 20px;
+  }
+  h1, h2, p, ul, li {
+    font-family: sans-serif;
+  }
+  ul.header li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    color: plum;
+  }
+  ul.header {
+    background-color: lavender;
+    padding: 0;
+    color: plum;
+    
+  }
+  ul.header li a {
+    color: plum;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    
+  }
+
+  
+
