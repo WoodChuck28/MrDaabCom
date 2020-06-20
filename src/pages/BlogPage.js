@@ -9,7 +9,7 @@ import BlogsVisual from "../containers/VisualBlogs"
 import BlogsVisual2 from "../containers/VisualBlogs2";
 import BlogsVisual3 from "../containers/VisualBlogs3";
 import galaxy_img from "../assets/resources/img/th.jpg";
-import my_logo from "../assets/resources/img/Serverless.jpg"  
+import my_logo from "../assets/resources/img/Serverless.PNG"  
 import "./styles/Home.css";
 import "./styles/Blog.css";
 
