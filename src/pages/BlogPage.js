@@ -4,11 +4,11 @@ import {
     NavLink,
     HashRouter
   } from "react-router-dom";
-import "./styles/Home.css";
+
 import BlogsVisual from "../containers/VisualBlogs"
 import BlogsVisual2 from "../containers/VisualBlogs2";
 import BlogsVisual3 from "../containers/VisualBlogs3";
-
+import "./styles/Home.css";
 import "./styles/Blog.css";
 
 export default function BlogPage() {
