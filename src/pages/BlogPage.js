@@ -61,7 +61,7 @@ export default function BlogPage() {
             <div class="card radius shadowDepth1" style={{maxWidth: "300px", margin: "20px"}}>
               <div class="card__image border-tlr-radius">
                 
-                <img src={require(serverless)} height="200" alt="TESTING" class="border-tlr-radius" />
+                <img src={serverless} height="200" alt="TESTING" class="border-tlr-radius" />
                     </div>
 
               <div class="card__content card__padding">
