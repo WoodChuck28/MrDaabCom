@@ -8,8 +8,11 @@ import {
 import BlogsVisual from "../containers/VisualBlogs"
 import BlogsVisual2 from "../containers/VisualBlogs2";
 import BlogsVisual3 from "../containers/VisualBlogs3";
-import galaxy_img from "../assets/resources/img/th.jpg";
-import my_logo from "../assets/resources/img/Serverless.PNG"  
+import serverless from "../assets/resources/img/Serverless.PNG";
+import galaxy_img from "../assets/resources/img/galaxy2.jpg";
+import my_logo from "../assets/resources/img/MyLOGO.png";
+import peace_symbol from "../assets/resources/img/peace-symbol.jpg";
+
 import "./styles/Home.css";
 import "./styles/Blog.css";
 
@@ -28,7 +31,7 @@ export default function BlogPage() {
             <div class="row card__padding" style={{display: "flex", marginLeft: "10px"}}>
             <div class="card radius shadowDepth1" style={{maxWidth: "300px", margin: "20px"}}>
               <div class="card__image border-tlr-radius">
-                <img src={my_logo} height="200" alt="galaxy" class="border-tlr-radius"/>
+                <img src={galaxy_img} height="200" alt="galaxy" class="border-tlr-radius"/>
               </div>
               <div class="card__content card__padding">
                         <div class="card__share">
@@ -58,7 +61,7 @@ export default function BlogPage() {
             <div class="card radius shadowDepth1" style={{maxWidth: "300px", margin: "20px"}}>
               <div class="card__image border-tlr-radius">
                 
-                <img src={require('../assets/resources/img/th.jpg')} height="200" alt="TESTING" class="border-tlr-radius" />
+                <img src={require(serverless)} height="200" alt="TESTING" class="border-tlr-radius" />
                     </div>
 
               <div class="card__content card__padding">
@@ -85,7 +88,7 @@ export default function BlogPage() {
             {/* Blog3 */}
             <div class="card radius shadowDepth1" style={{maxWidth: "300px", margin: "20px"}}>
               <div class="card__image border-tlr-radius">
-                <img src={galaxy_img} height="200" alt="me" class="border-tlr-radius" id="myImage"/>
+                <img src={peace_symbol} height="200" alt="me" class="border-tlr-radius" id="myImage"/>
               </div>
               <div class="card__content card__padding">
                 <div class="card__meta">
