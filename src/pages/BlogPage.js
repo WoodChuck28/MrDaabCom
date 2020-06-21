@@ -9,9 +9,9 @@ import BlogsVisual from "../containers/VisualBlogs"
 import BlogsVisual2 from "../containers/VisualBlogs2";
 import BlogsVisual3 from "../containers/VisualBlogs3";
 import serverless from "../assets/resources/img/Serverless.PNG";
-import galaxy_img from "../assets/resources/img/galaxy2.jpg";
-import my_logo from "../assets/resources/img/MyLOGO.png";
-import peace_symbol from "../assets/resources/img/peace-symbol.jpg";
+import galaxy_img from "../assets/resources/img/MyGalaxy.jpg";
+import my_logo from "../assets/resources/img/MainLOGO.png";
+import peace_symbol from "../assets/resources/img/Peace.jpg";
 
 import "./styles/Home.css";
 import "./styles/Blog.css";
