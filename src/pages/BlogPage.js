@@ -9,13 +9,14 @@ import BlogsVisual from "../containers/VisualBlogs"
 import BlogsVisual2 from "../containers/VisualBlogs2";
 import BlogsVisual3 from "../containers/VisualBlogs3";
 import serverless from "../assets/resources/img/Serverless.PNG";
-import myGalaxy from "../assets/resources/img/MyGalaxy.jpg";
 import mainLOGO from "../assets/resources/img/MainLOGO.png";
 import peace from "../assets/resources/img/Peace.jpg";
 import maninblack from "../assets/resources/img/ManInBlack.png"
 
 import "./styles/Home.css";
 import "./styles/Blog.css";
+
+
 
 export default function BlogPage() {
   
@@ -51,7 +52,7 @@ export default function BlogPage() {
               </div>
               <div class="card__action">
                 <div class="card__author">
-                  <img src={mainLOGO} width="50" height= "50" alt="user"/>
+                  <img src={"C://Users/charl/Sandbox/MrDaabCom/MrDaabCom/src/assets/resources/img/MyGalaxy.jpg"} width="50" height= "50" alt="user"/>
                   <div class="card__author-content">
                     By <a href="/home">Mr. Daab</a>
                   </div>
