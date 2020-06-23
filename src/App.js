@@ -41,6 +41,7 @@ function App() {
             </Navbar.Brand> 
           </Navbar.Header>
               <a href="/schedule"><button className="btn btn-navbar"  style={{float: "right"}}>Schedule</button></a>
+              <a href="/computerScience"><button className="btn btn-navbar"  style={{float: "right"}}>CS</button></a>
               <a href="/blogs"><button className="btn btn-navbar"  style={{float: "right"}}>Blogs</button></a>
               <a href="/physics"><button className="btn btn-navbar"  style={{float: "right"}}>Physics</button></a>
         </Navbar>

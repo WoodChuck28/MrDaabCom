@@ -7,7 +7,7 @@ import {
 import ResponsiveGrid from "../components/MyGrid";
 import { Card } from "@material-ui/core";
 
-  export default function BlogPage() {
+  export default function CSPage() {
       return(
         <div className="mainClass" style={{backgroundColor: "#354e01"}}>
       <div></div>
