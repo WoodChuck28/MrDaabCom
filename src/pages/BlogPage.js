@@ -12,6 +12,7 @@ import serverless from "../assets/resources/img/Serverless.PNG";
 import myGalaxy from "../assets/resources/img/MyGalaxy.jpg";
 import mainLOGO from "../assets/resources/img/MainLOGO.png";
 import peace from "../assets/resources/img/Peace.jpg";
+import maninblack from "../assets/resources/img/ManInBlack.png"
 
 import "./styles/Home.css";
 import "./styles/Blog.css";
@@ -31,7 +32,7 @@ export default function BlogPage() {
             <div class="row card__padding" style={{display: "flex", marginLeft: "10px"}}>
             <div class="card radius shadowDepth1" style={{maxWidth: "300px", margin: "20px"}}>
               <div class="card__image border-tlr-radius">
-                <img src={myGalaxy} height="200" alt="Galaxy" class="border-tlr-radius"/>
+                <img src={maninblack} height="200" alt="Galaxy" class="border-tlr-radius"/>
               </div>
               <div class="card__content card__padding">
                         <div class="card__share">
