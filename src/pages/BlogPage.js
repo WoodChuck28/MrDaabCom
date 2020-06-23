@@ -52,7 +52,7 @@ export default function BlogPage() {
               </div>
               <div class="card__action">
                 <div class="card__author">
-                  <img src={require("C://Users/charl/Sandbox/MrDaabCom/MrDaabCom/src/assets/resources/img/MyGalaxy.jpg")} width="50" height= "50" alt="user"/>
+                  <img src={require("./images/MyGalaxy.jpg")} width="50" height= "50" alt="user"/>
                   <div class="card__author-content">
                     By <a href="/home">Mr. Daab</a>
                   </div>
