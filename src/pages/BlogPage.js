@@ -9,8 +9,7 @@ import BlogsVisual from "../containers/VisualBlogs"
 import BlogsVisual2 from "../containers/VisualBlogs2";
 import BlogsVisual3 from "../containers/VisualBlogs3";
 import serverless from "./images/Serverless.PNG";
-import mainLOGO from "./images/MainLOGO.png";
-import peace from "./images/Peace.jpg";
+
 
 import "./styles/Home.css";
 import "./styles/Blog.css";
@@ -18,8 +17,6 @@ import "./styles/Blog.css";
 
 
 export default function BlogPage() {
-  const logo_img = <img src="https://1drv.ms/u/s!AnvXppuJIjNFiJVFSs7shUyUOXKF1g?e=519iX0" height= "200" alt="logo" class="border-tlr-radius"/>
-  
   function displayBlogs() {
     return (
       <div className="container" >

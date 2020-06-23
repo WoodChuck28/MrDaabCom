@@ -1,9 +1,4 @@
 import React from "react";
-import {
-    Route,
-    NavLink,
-    HashRouter
-  } from "react-router-dom";
 import ResponsiveGrid from "../components/MyGrid";
 import { Card } from "@material-ui/core";
 
