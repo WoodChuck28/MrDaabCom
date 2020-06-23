@@ -241,3 +241,7 @@ h2 {
 .shadowDepth1 {
 	border-radius: 20px;
 }
+
+.Galaxy {
+	background-image: url(../../assets/resources/img/galaxy.jpg);
+  }
