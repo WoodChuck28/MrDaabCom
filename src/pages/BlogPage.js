@@ -8,9 +8,9 @@ import {
 import BlogsVisual from "../containers/VisualBlogs"
 import BlogsVisual2 from "../containers/VisualBlogs2";
 import BlogsVisual3 from "../containers/VisualBlogs3";
-import serverless from "../assets/resources/img/Serverless.PNG";
-import mainLOGO from "../assets/resources/img/MainLOGO.png";
-import peace from "../assets/resources/img/Peace.jpg";
+import serverless from "./images/Serverless.PNG";
+import mainLOGO from "./images/MainLOGO.png";
+import peace from "./images/Peace.jpg";
 import maninblack from "../assets/resources/img/ManInBlack.png"
 
 import "./styles/Home.css";
