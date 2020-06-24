@@ -26,6 +26,7 @@ import WavesInterference from "./containers/PhysicsContainers/multiSims/WaveInte
 import BendingLight from "./containers/PhysicsContainers/multiSims/BendingLight";
 import { Scheduler } from "./pages/Scheduler";
 import CSPage from "./pages/ComputerScience";
+import Unity from "./containers/CSContainers/Unity";
 
 export default function Routes() {
   return (
@@ -44,6 +45,9 @@ export default function Routes() {
       </UnauthenticatedRoute>
       <UnauthenticatedRoute exact path="/computerScience">
         <CSPage />
+      </UnauthenticatedRoute>
+      <UnauthenticatedRoute exact path="/unity">
+        <Unity />
       </UnauthenticatedRoute>
       <UnauthenticatedRoute exact path="/login">
         <Login />

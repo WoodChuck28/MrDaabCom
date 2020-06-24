@@ -51,7 +51,7 @@ import "./styles/MyGrid.css"
         "CSS",
         "Frameworks",
         "Job Paths",
-        "Unity Game Dev",
+        "Unity",
         "Hardware",
         "SQL/NOSQL DBs"
       ];
@@ -114,7 +114,7 @@ import "./styles/MyGrid.css"
         </ResponsiveContext.Consumer>
       );
       
-      const ResponsiveGrid = () => (
+      const ResponsiveCSGrid = () => (
         <Grommet theme={customBreakpoints}>
           <Box style={{background: "rgb(53, 78, 1)"}}>      
             <Responsive pad="small" gap="medium" margin="large" columns="small" rows="medium">
@@ -125,6 +125,6 @@ import "./styles/MyGrid.css"
       );
 
   return (
-    <ResponsiveGrid></ResponsiveGrid>
+    <ResponsiveCSGrid></ResponsiveCSGrid>
   );
 }

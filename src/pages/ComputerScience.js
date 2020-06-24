@@ -1,24 +1,18 @@
 import React from "react";
-import ResponsiveGrid from "../components/MyGrid";
+import ResponsiveCSGrid from "../components/MyCSGrid";
 import { Card } from "@material-ui/core";
 
   export default function CSPage() {
       return(
-        <div className="mainClass" style={{backgroundColor: "#354e01"}}>
-      <div></div>
+        <div className="mainClass" style={{backgroundColor: "#354e01", paddingTop: "25px"}}>
+      
         <Card className="physHeader" style={{background: "#354e01", backgroundColor: "#354e01", borderColor: "black", borderWidth: "3px", borderStyle: "solid", 
         padding: "5px"}}>
-          <h1>Guide to using the physics pages:</h1>
+          <h1>Click on a button below to check out that CS topic.</h1>
  
-          <ul style={{textAlign: "center", backgroundColor: "#354e01",  background: "#354e01"}}>
-            <li style={{background: "#354e01", backgroundColor: "#354e01" }}><strong style={{fontSize: "18px"}}>1. CB: Link to Collegeboard's unit outline guide. Includes standards, science practices, and I can statements</strong></li>
-            <li><strong style={{fontSize: "18px"}}>2. NOTES: Link to comprehensive notes guide with example problems throughout</strong></li>
-            <li><strong style={{fontSize: "18px"}}>3. NOTES OUTLINE: Link to fill in the blank notes guide with practice problems</strong></li>
-            <li><strong style={{fontSize: "18px"}}>4. VOCAB: Link to vocabulary for this unit</strong></li>
-            <li><strong style={{fontSize: "18px"}}>5. EXAMPLES: Link to worked examples from the notes tab</strong></li>
-            </ul>
+          
         </Card>
-        <ResponsiveGrid style={{background:"#354e01",  backgroundColor: "#354e01"}} className="testertester"></ResponsiveGrid>
+        <ResponsiveCSGrid style={{background:"#354e01",  backgroundColor: "#354e01"}} className="testertester"></ResponsiveCSGrid>
       </div>
       );
   }  

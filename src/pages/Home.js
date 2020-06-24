@@ -26,13 +26,14 @@ export default function Home() {
         </div>
         <div className="middle">
         <div className="content" id="myContent">
-        <a href="/nameform" >
+        <a href="/computerScience" >
         <div className="content-overlay"></div>
-        <img src="https://96c80q.bl.files.1drv.com/y4mlKKEA_6vnVaRMyNusMZPNO-OACHyxN5qD8C_WA42-4P0Q8jz7fNVq7Fk32ul2hB5Dw3Cv5rj5htvzm-twVc9j-J0H1BkkGcbQNVe-8j9HcZfpK1pkv38vIu4PeymXXIREHtO_FsYlP2rFsYMHtVFtaUaXhvUOnM1xMCzSgbULTJQVZPNwtHkMAxHsYigANbOABVB6UBKp2RQgeuS2AARFQ?width=660&height=495&cropmode=none" 
+        <img src="https://ox8wcq.bl.files.1drv.com/y4mt_0C-12zD_-qZlO5caw1n3ZulBvZPgIXiK4gd3XvZbUxTzz3th_bpcUb8SJiSLC-kK06yW_jKaYyxkVxiyvZaZKIJATQLFyadBTLrx_NH52n8OWSBTSt-lyk6gb5DsCG4vsjEWl66DzrN-C7eTTRiE77X3JScYyI2sxxu-G-jVYBWH9nUJEU40mBuIDtnrQJj9c1q8-QTsHPkuAZ8evgYw?width=660&height=440&cropmode=none" 
         width="100%" height="300" alt="MD"/>
         <div className="content-details fadeIn-bottom">
-          <h3 className="content-title">MD Designs</h3>
-            <p className="content-text">This is a short description</p>
+          <h3 className="content-title">MR DAAB CS PAGE</h3>
+            <p className="content-text">Here Mr Daab will cover all of his latest CS projects and provide 
+            general info about all types of programming</p>
         </div>
         </a>
       </div>
@@ -41,7 +42,7 @@ export default function Home() {
         <div className="content" id="myContent">
         <a href="/blogs" >
         <div className="content-overlay"></div>
-        <img src="https://ox8wcq.bl.files.1drv.com/y4mt_0C-12zD_-qZlO5caw1n3ZulBvZPgIXiK4gd3XvZbUxTzz3th_bpcUb8SJiSLC-kK06yW_jKaYyxkVxiyvZaZKIJATQLFyadBTLrx_NH52n8OWSBTSt-lyk6gb5DsCG4vsjEWl66DzrN-C7eTTRiE77X3JScYyI2sxxu-G-jVYBWH9nUJEU40mBuIDtnrQJj9c1q8-QTsHPkuAZ8evgYw?width=660&height=440&cropmode=none" 
+        <img src={"https://zzocpg.bl.files.1drv.com/y4mouc6fiNDTFVlmP5o_lprWzHZspTq2SsFgrb3KDLdhlvNq4ZunTA6bnQij168BHPb9FfWQj559VvnoB3rR-qEoxCfM0q2-TmCmEVKHoDLP76GJeTmi2nqKMb9AeuPMWK-E1yXlJSTZoxMXUN8eihkWH-d3ebaOG2kAOxOdUFKBU2bvlI_jVD1pBAmKGgAomp_k4Ekd5dqIvHhDXzgQ5ud4w?width=660&height=440&cropmode=none"} 
         width="100%" height="300" alt="Blogs"/>
         <div className="content-details fadeIn-bottom">
           <h3 className="content-title">Adventures of Mr. Daab</h3>
