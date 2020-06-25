@@ -27,6 +27,7 @@ import BendingLight from "./containers/PhysicsContainers/multiSims/BendingLight"
 import { Scheduler } from "./pages/Scheduler";
 import CSPage from "./pages/ComputerScience";
 import Unity from "./containers/CSContainers/Unity";
+import Python from "./containers/CSContainers/Python/Python";
 
 export default function Routes() {
   return (
@@ -45,6 +46,9 @@ export default function Routes() {
       </UnauthenticatedRoute>
       <UnauthenticatedRoute exact path="/computerScience">
         <CSPage />
+      </UnauthenticatedRoute>
+      <UnauthenticatedRoute exact path="/python">
+        <Python />
       </UnauthenticatedRoute>
       <UnauthenticatedRoute exact path="/unity">
         <Unity />

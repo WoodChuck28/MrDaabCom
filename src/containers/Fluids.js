@@ -17,6 +17,7 @@ import FluidsLabOne from "./PhysicsContainers/labs/FluidsLab1";
 
 import "./styles/PhysicsStyles.css";
 import BucketLab from "./PhysicsContainers/labs/FluidsLab2";
+import { Card } from "@material-ui/core";
  
 class Fluids extends Component {
   render() {
@@ -40,6 +41,12 @@ class Fluids extends Component {
             <Route path="/LabOne" component={FluidsLabOne}/>
             <Route path="/LabTwo" component={BucketLab}/>
           </div>
+          <Card style={{textAlign: "center", background: "inherit", color: "white"}}>
+            <h3>Fluid Dynamics - Study of the movement of fluids through various mediums.</h3>
+            <hr></hr>
+            <img src="https://www.paraview.org/wp-content/uploads/2014/04/full_F35-6.png" height="auto" width="auto" alt="fluid" 
+            style={{paddingTop: "20px"}}/>
+          </Card>
         </div>
         
         </HashRouter>
