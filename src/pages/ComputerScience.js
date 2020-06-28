@@ -1,6 +1,6 @@
 import React from "react";
 import ResponsiveCSGrid from "../components/MyCSGrid";
-import { Card, CardContent } from "@material-ui/core";
+import { Card } from "@material-ui/core";
 
   export default function CSPage() {
       return(
