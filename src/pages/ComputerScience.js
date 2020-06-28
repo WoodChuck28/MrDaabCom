@@ -17,9 +17,13 @@ import { Card, CardContent } from "@material-ui/core";
           <h4>My Current Build:</h4>
           <hr/>
           <br/>
-          <ul>
+          <ul style={{color: "white"}}>
             <li>Chip:&nbsp;&nbsp;AMD Ryzen 5 3600 6 CORE (First AMD Chip)</li>
             <li>MotherBoard:&nbsp;&nbsp;Aorus Elite Gaming ATX</li>
+            <li>RAM:&nbsp;&nbsp;16GB Corsair Vengeance</li>
+            <li>SD:&nbsp;&nbsp;500GB M.2 SSD</li>
+            <li>Graphics:&nbsp;&nbsp;Nvidia GeForce 6800 6GB</li>
+            <li>Case:&nbsp;&nbsp;Luan Li Large Black LED Panel, Butterfly Doors</li>
           </ul>
         </Card>
       </div>

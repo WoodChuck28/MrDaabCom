@@ -28,7 +28,8 @@ export class Scheduler extends SampleBase {
           <div className='schedule-control-section'style={{marginTop: "130px"}}>
         <div className='control-section' >
           <div className='control-wrapper'>
-            <ScheduleComponent title="tester" height='600px'  ref={schedule => this.scheduleObj = schedule} selectedDate={new Date(2019, 0, 10)} eventSettings={{ dataSource: this.data }} dragStart={(this.onDragStart.bind(this))}>
+            <ScheduleComponent title="tester" height='600px'  ref={schedule => this.scheduleObj = schedule} selectedDate={new Date(2020, 7, 2)} eventSettings={{ dataSource: this.data }} 
+            dragStart={(this.onDragStart.bind(this))} timezone='America/New_York' colorField='red'>
               <ViewsDirective>
                 <ViewDirective option='Day'/>
                 <ViewDirective option='Week'/>

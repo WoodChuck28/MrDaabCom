@@ -29,6 +29,7 @@ class Fluids extends Component {
           <li><MyMenuButton2 /></li>
           <li><MyMenuButton3 /></li>
           </ul>
+        </div>
           
           <div className="content">
             <Route path="/CollegeBoard" component={CollegeBoardFluid}/>
@@ -47,7 +48,7 @@ class Fluids extends Component {
             <img src="https://www.paraview.org/wp-content/uploads/2014/04/full_F35-6.png" height="auto" width="auto" alt="fluid" 
             style={{paddingTop: "20px"}}/>
           </Card>
-        </div>
+        
         
         </HashRouter>
     );

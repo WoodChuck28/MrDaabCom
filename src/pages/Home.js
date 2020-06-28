@@ -5,11 +5,10 @@ import "./styles/Home.css";
 import CarouselPage from "../components/Carousel"
 
 export default function Home() {
- 
-
   function displayHome() {
     return (<div className="container">
     <CarouselPage style={{marginTop: "25px"}}/>
+    <h3 style={{textAlign: "center"}}>MR Daab's students should go to physics tab for physics content.</h3>
       <div className="grid-container">
         <div className="left">
               <div className="content" id="myContent">
@@ -52,13 +51,9 @@ export default function Home() {
       </div>
         </div> 
 </div>
-
-
 </div>
-
     );
   }
-
   return (
     <div className="Home">
       {displayHome()}

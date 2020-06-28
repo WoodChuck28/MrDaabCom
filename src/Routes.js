@@ -28,6 +28,7 @@ import { Scheduler } from "./pages/Scheduler";
 import CSPage from "./pages/ComputerScience";
 import Unity from "./containers/CSContainers/Unity";
 import Python from "./containers/CSContainers/Python/Python";
+import Thermo from "./containers/PhysicsContainers/Thermo";
 
 export default function Routes() {
   return (
@@ -85,6 +86,9 @@ export default function Routes() {
       </UnauthenticatedRoute>
       <UnauthenticatedRoute exact path="/fluids">
         <Fluids />
+      </UnauthenticatedRoute>
+      <UnauthenticatedRoute exact path="/thermo">
+        <Thermo />
       </UnauthenticatedRoute>
       <UnauthenticatedRoute exact path="/EandM">
         <EandM />
