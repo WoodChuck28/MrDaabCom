@@ -5,14 +5,11 @@ class BlogsVisual3 extends Component {
   render() {
     return (
       <div className="Blog3">
-        <Card>
-            <CardContent>
-                <h3>Racism in America</h3>
-                <p>June 18, 2020</p>
-            </CardContent>
-        </Card>
+        
         <Card>
             <CardContent style={{textAlign: "left", padding: "20px"}}>
+            <h3>Racism in America</h3>
+            <p>June 18, 2020</p>
                 <p>
                     It seems like 2020 is destined to be a signigicant time in our history. Between
                     opposing political views, a never-before-seen global pandemic, revisting equality amongst races,
@@ -33,13 +30,7 @@ class BlogsVisual3 extends Component {
                     whether it be making first team, breaking a record, or learning a skill, your "training" period is right now. 
                     Use this time to "train" so that when you emerge, you will be far better off than those who argued on facebook
                     the entire time, or those that created 756 tik tok videos.
-                    <br/>
-                    The main focus of this post is to address how to navigate the current landscape while not getting discouraged, 
-                    and while maintaining hope for humankind. The funny thing is I truly believe we over-complicate the solution, 
-                    and this combined with our general impatience makes progress difficult to ascertain. To me, in order to solve
-                    issues facing our society today, you need to start with respect/kindness towards all humans.
-
-                    TO BE CONTINUED LATER TODAY (8:54am 6-18-20)
+                    
                     <br/>
                     <br/>
                     <p>-MR. DAAB</p>
