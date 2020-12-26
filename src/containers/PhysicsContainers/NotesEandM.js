@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 
-class NotesDyn extends Component {
+class NotesEandM extends Component {
   render() {
     return (
       <div>
@@ -11,4 +11,4 @@ class NotesDyn extends Component {
   }
 }
  
-export default NotesDyn;
+export default NotesEandM;
