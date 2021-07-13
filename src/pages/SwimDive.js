@@ -1,5 +1,5 @@
 import React from "react";
-import ResponsiveDivingGrid from "../components/MyDivingGrid";
+import ResponsiveDivingGrid from "../components/MyDiveGrid";
 import { Card } from "@material-ui/core";
 
   export default function DivingPage() {
