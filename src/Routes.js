@@ -65,7 +65,7 @@ export default function Routes() {
         <Dives />
       </UnauthenticatedRoute>
       <UnauthenticatedRoute exact path="/DiveNumbers">
-        <DiveNumbers />
+        <DivingNumbers />
       </UnauthenticatedRoute>
       <UnauthenticatedRoute exact path="/unity">
         <Unity />
