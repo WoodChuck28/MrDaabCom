@@ -30,6 +30,7 @@ import DivingPage from "./pages/SwimDive";
 import Unity from "./containers/CSContainers/Unity";
 import Python from "./containers/CSContainers/Python/Python";
 import Thermo from "./containers/PhysicsContainers/Thermo";
+import Intro from "./containers/DivingContainers/Intro/Intro";
 
 export default function Routes() {
   return (
@@ -54,6 +55,9 @@ export default function Routes() {
       </UnauthenticatedRoute>
       <UnauthenticatedRoute exact path="/python">
         <Python />
+      </UnauthenticatedRoute>
+      <UnauthenticatedRoute exact path="/Intro">
+        <Intro />
       </UnauthenticatedRoute>
       <UnauthenticatedRoute exact path="/unity">
         <Unity />

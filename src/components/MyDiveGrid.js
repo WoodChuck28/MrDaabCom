@@ -44,14 +44,14 @@ import "./styles/MyGrid.css"
       
       // Let's say this is returned from an API
       const diving = [
-        "Intro to Diving",
-        "Diving Basics",
-        "Dives Explained",
-        "Dive Numbers",
+        "Intro",
+        "Basics",
+        "Dives",
+        "DiveNumbers",
         "Scoring",
         "Workouts",
-        "What It Takes",
-        "Diving in College"
+        "What_It_Takes",
+        "NCAA"
       ];
       
       // Create box for each animal
