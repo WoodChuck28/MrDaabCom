@@ -41,7 +41,7 @@ const CarouselPage = () => {
           </MDBView>
           <MDBCarouselCaption>
             <h3 className="h3-responsive">Physics</h3>
-            <p>This site covers content from AP Physics 1 and 2</p>
+            <p>For all things physics!</p>
           </MDBCarouselCaption>
         </MDBCarouselItem>
         <MDBCarouselItem itemId="3">
@@ -55,8 +55,8 @@ const CarouselPage = () => {
           <MDBMask overlay="black-slight" />
           </MDBView>
           <MDBCarouselCaption>
-            <h3 className="h3-responsive">MD Designs</h3>
-            <p>Affordable home decor made custom for you!</p>
+            <h3 className="h3-responsive">Coach Daab's Corner</h3>
+            <p>Everything about swimming and diving</p>
           </MDBCarouselCaption>
         </MDBCarouselItem>
       </MDBCarouselInner>
