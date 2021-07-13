@@ -7,7 +7,7 @@ class frontPike extends Component {
   render() {
     return (
         <div className="App">
-        <h1>Youtube Embed</h1>
+        <h1>Peter S. GHSA State Championship 5134D</h1>
         <YoutubeEmbed embedId="2KTgZ5C0Sis" />
       </div>
     );
