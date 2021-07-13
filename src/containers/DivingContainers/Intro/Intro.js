@@ -16,7 +16,7 @@ class DivingIntro extends Component {
     return (
       <HashRouter>
       <div>
-      <h2 style={{textAlign: "center", marginTop: "70px"}}>Python - Super High Level Programming Language</h2>
+      <h2 style={{textAlign: "center", marginTop: "70px"}}>Swim and Dive Home Base</h2>
       <ul className="header" style={{background: "#001a00", height: "70px"}}>
       <li><NavLink to="/divingHistory" style={{color: "white"}}>History of Sport</NavLink></li>
       <li><NavLink to="/divingCompetition" style={{color: "white"}}>How Competition Works</NavLink></li>
