@@ -6,6 +6,10 @@ import {
 } from "react-router-dom";
 import frontPike from "./SubDirs/101b";
 import frontTwoHalfPike from "./SubDirs/105b";
+import inwardTwoHalfTuck from "./SubDirs/405c";
+import reverseTwoHalfTuck from "./SubDirs/305c";
+import backTwoHalfPike from "./SubDirs/205c";
+
 import { Card } from "@material-ui/core";
 
 class Dives extends Component {
@@ -15,17 +19,19 @@ class Dives extends Component {
       <div>
       <h2 style={{textAlign: "center", marginTop: "70px"}}>Examples of Select Dives:</h2>
       <ul className="header" style={{background: "#001a00", height: "70px"}}>
-      <li><NavLink to="/101b" style={{color: "white"}}>101B</NavLink></li>
       <li><NavLink to="/105b" style={{color: "white"}}>105B</NavLink></li>
-      <li><NavLink to="/103b" style={{color: "white"}}>103B</NavLink></li>
-      <li><NavLink to="/104b" style={{color: "white"}}>104B</NavLink></li>
+      <li><NavLink to="/205c" style={{color: "white"}}>205C</NavLink></li>
+      <li><NavLink to="/305c" style={{color: "white"}}>305C</NavLink></li>
+      <li><NavLink to="/405c" style={{color: "white"}}>405C</NavLink></li>
+      <li><NavLink to="/5134d" style={{color: "white"}}>5134D</NavLink></li>
       </ul>
         
         <div className="content">
-          <Route path="/101b" component={frontPike}/>
           <Route path="/105b" component={frontTwoHalfPike}/>
-          <Route path="/103b" component={frontPike}/>
-          <Route path="/104b" component={frontPike}/>
+          <Route path="/205c" component={backTwoHalfPike}/>
+          <Route path="/305c" component={reverseTwoHalfTuck}/>
+          <Route path="/405c" component={inwardTwoHalfTuck}/>
+          <Route path="/5134d" component={frontPike}/>
         </div>
         <Card style={{textAlign: "center", background: "inherit"}}>
         </Card>

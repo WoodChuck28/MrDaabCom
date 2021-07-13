@@ -3,15 +3,15 @@ import YoutubeEmbed from "../../../../components/youTubeEmbed";
 import "../../../styles/CollegeBoardDoc.css";
 import "../../../../pages/styles/Diving.css"
  
-class frontTwoHalfPike extends Component {
+class backTwoHalfPike extends Component {
   render() {
     return (
         <div className="App">
-        <h1>Peter S. GHSA State Championship 105B</h1>
-        <YoutubeEmbed embedId="r-Iq8a6Ve0E" />
+        <h1>Peter S. GHSA State Championship 205B</h1>
+        <YoutubeEmbed embedId="ObqTr6yq9UY" />
       </div>
     );
   }
 }
 
-export default frontTwoHalfPike;
+export default backTwoHalfPike;
