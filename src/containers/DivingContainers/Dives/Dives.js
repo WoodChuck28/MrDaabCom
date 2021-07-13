@@ -5,6 +5,7 @@ import {
   NavLink
 } from "react-router-dom";
 import frontPike from "./SubDirs/101b";
+import frontTwoHalfPike from "./SubDirs/105b";
 import { Card } from "@material-ui/core";
 
 class Dives extends Component {
@@ -22,7 +23,7 @@ class Dives extends Component {
         
         <div className="content">
           <Route path="/101b" component={frontPike}/>
-          <Route path="/102b" component={frontPike}/>
+          <Route path="/105b" component={frontTwoHalfPike}/>
           <Route path="/103b" component={frontPike}/>
           <Route path="/104b" component={frontPike}/>
         </div>
