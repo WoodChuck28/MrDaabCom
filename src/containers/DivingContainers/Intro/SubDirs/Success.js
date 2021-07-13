@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Iframe from 'react-iframe'
-import "../../styles/CollegeBoardDoc.css";
+import "../../../styles/CollegeBoardDoc.css";
  
 class DivingSuccess extends Component {
   render() {

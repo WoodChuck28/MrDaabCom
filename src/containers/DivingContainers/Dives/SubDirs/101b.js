@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Iframe from 'react-iframe'
-import "../../../styles/CollegeBoardDoc.css";
+import "../../styles/CollegeBoardDoc.css";
  
-class DivingHistory extends Component {
+class frontPike extends Component {
   render() {
     return (
       <div className="myDivingClass">
@@ -13,4 +13,4 @@ class DivingHistory extends Component {
   }
 }
  
-export default DivingHistory;
+export default frontPike;
