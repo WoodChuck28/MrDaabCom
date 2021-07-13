@@ -13,7 +13,7 @@ import { Card } from "@material-ui/core";
         <Card style={{padding: "10px", background: "inherit"}}>
             <ResponsiveDivingGrid style={{background:"#354e01",  backgroundColor: "#354e01"}} className="testertester"></ResponsiveDivingGrid>
         </Card>
-        <Card style={{background: "inherit"}}>
+        <Card style={{background: "inherit", borderColor: "black"}}>
           <h4 style={{paddingLeft: "10px"}}>About Coach Daab</h4>
           <hr/>
           <br/>
