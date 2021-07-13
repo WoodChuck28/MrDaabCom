@@ -7,7 +7,7 @@ class DivingHistory extends Component {
     return (
       <div className="myDivingClass">
       <Iframe src="https://onedrive.live.com/embed?cid=453322899BA6D77B&resid=453322899BA6D77B%21143706&authkey=AFcIkVC5UcfiHww&em=2" 
-      width="500" height="100%" frameborder="0" scrolling="no"></Iframe>
+      width="100%" height="500px" frameborder="0" scrolling="no"></Iframe>
       </div>
     );
   }
