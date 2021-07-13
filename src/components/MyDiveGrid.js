@@ -112,7 +112,7 @@ import "./styles/MyGrid.css"
         </ResponsiveContext.Consumer>
       );
       
-      const ResponsiveCSGrid = () => (
+      const ResponsiveDivingGrid = () => (
         <Grommet theme={customBreakpoints}>
           <Box style={{background: "rgb(53, 78, 1)"}}>      
             <Responsive pad="small" gap="medium" margin="large" columns="small" rows="medium">

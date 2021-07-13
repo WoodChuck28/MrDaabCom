@@ -14,16 +14,16 @@ import { Card } from "@material-ui/core";
             <ResponsiveDivingGrid style={{background:"#354e01",  backgroundColor: "#354e01"}} className="testertester"></ResponsiveDivingGrid>
         </Card>
         <Card style={{background: "inherit"}}>
-          <h4>My Current Build:</h4>
+          <h4>About Coach Daab</h4>
           <hr/>
           <br/>
           <ul style={{color: "white"}}>
-            <li>Chip:&nbsp;&nbsp;AMD Ryzen 5 3600 6 CORE (First AMD Chip)</li>
-            <li>MotherBoard:&nbsp;&nbsp;Aorus Elite Gaming ATX</li>
-            <li>RAM:&nbsp;&nbsp;16GB Corsair Vengeance</li>
-            <li>SD:&nbsp;&nbsp;500GB M.2 SSD</li>
-            <li>Graphics:&nbsp;&nbsp;Nvidia GeForce 6800 6GB</li>
-            <li>Case:&nbsp;&nbsp;Luan Li Large Black LED Panel, Butterfly Doors</li>
+            <li>Chip:&nbsp;&nbsp;Swimming for 28 years</li>
+            <li>MotherBoard:&nbsp;&nbsp;Diving Coach 3 years</li>
+            <li>RAM:&nbsp;&nbsp;Summer Swim Coach 1 year</li>
+            <li>SD:&nbsp;&nbsp;Teaches AP Physics 1 at NGHS</li>
+            <li>Graphics:&nbsp;&nbsp;Married and baby on way!</li>
+            <li>Case:&nbsp;&nbsp;Love swimming, being silly, being outdoors, fishing, and going on adventures!</li>
           </ul>
         </Card>
       </div>
