@@ -50,7 +50,7 @@ export default function Routes() {
         <CSPage />
       </UnauthenticatedRoute>
       <UnauthenticatedRoute exact path="/swimanddive">
-        <CSPage />
+        <DivingPage />
       </UnauthenticatedRoute>
       <UnauthenticatedRoute exact path="/python">
         <Python />
