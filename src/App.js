@@ -44,7 +44,7 @@ function App() {
               <a href="/computerScience"><button className="btn btn-navbar"  style={{float: "right"}}>CS</button></a>
               <a href="/blogs"><button className="btn btn-navbar"  style={{float: "right"}}>Blogs</button></a>
               <a href="/physics"><button className="btn btn-navbar"  style={{float: "right"}}>Physics</button></a>
-              <a href="/physics"><button className="btn btn-navbar"  style={{float: "right"}}>Swim and Dive</button></a>
+              <a href="/swimanddive"><button className="btn btn-navbar"  style={{float: "right"}}>Swim and Dive</button></a>
         </Navbar>
         <ErrorBoundary>
           <AppContext.Provider value={{ isAuthenticated, userHasAuthenticated }}>

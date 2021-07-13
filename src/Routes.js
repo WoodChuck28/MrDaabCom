@@ -26,6 +26,7 @@ import WavesInterference from "./containers/PhysicsContainers/multiSims/WaveInte
 import BendingLight from "./containers/PhysicsContainers/multiSims/BendingLight";
 import { Scheduler } from "./pages/Scheduler";
 import CSPage from "./pages/ComputerScience";
+import DivingPage from "./pages/SwimDive";
 import Unity from "./containers/CSContainers/Unity";
 import Python from "./containers/CSContainers/Python/Python";
 import Thermo from "./containers/PhysicsContainers/Thermo";
@@ -46,6 +47,9 @@ export default function Routes() {
         <BlogPage />
       </UnauthenticatedRoute>
       <UnauthenticatedRoute exact path="/computerScience">
+        <CSPage />
+      </UnauthenticatedRoute>
+      <UnauthenticatedRoute exact path="/swimanddive">
         <CSPage />
       </UnauthenticatedRoute>
       <UnauthenticatedRoute exact path="/python">
