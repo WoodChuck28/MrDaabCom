@@ -16,7 +16,7 @@ class Dives extends Component {
       <h2 style={{textAlign: "center", marginTop: "70px"}}>Examples of Select Dives:</h2>
       <ul className="header" style={{background: "#001a00", height: "70px"}}>
       <li><NavLink to="/101b" style={{color: "white"}}>101B</NavLink></li>
-      <li><NavLink to="/102b" style={{color: "white"}}>102B</NavLink></li>
+      <li><NavLink to="/105b" style={{color: "white"}}>105B</NavLink></li>
       <li><NavLink to="/103b" style={{color: "white"}}>103B</NavLink></li>
       <li><NavLink to="/104b" style={{color: "white"}}>104B</NavLink></li>
       </ul>
