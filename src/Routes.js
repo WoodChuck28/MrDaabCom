@@ -31,6 +31,7 @@ import Unity from "./containers/CSContainers/Unity";
 import Python from "./containers/CSContainers/Python/Python";
 import Thermo from "./containers/PhysicsContainers/Thermo";
 import Intro from "./containers/DivingContainers/Intro/Intro";
+import Dives from "./containers/DivingContainers/Dives/Dives";
 
 export default function Routes() {
   return (
@@ -58,6 +59,9 @@ export default function Routes() {
       </UnauthenticatedRoute>
       <UnauthenticatedRoute exact path="/Intro">
         <Intro />
+      </UnauthenticatedRoute>
+      <UnauthenticatedRoute exact path="/Dives">
+        <Dives />
       </UnauthenticatedRoute>
       <UnauthenticatedRoute exact path="/unity">
         <Unity />
