@@ -49,6 +49,7 @@ import "./styles/MyGrid.css"
         "Dives",
         "DiveNumbers",
         "Scoring",
+        "Programs",
         "Workouts",
         "What_It_Takes",
         "NCAA"

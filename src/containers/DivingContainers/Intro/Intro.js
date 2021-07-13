@@ -31,8 +31,6 @@ class DivingIntro extends Component {
           <Route path="/divingExamples" component={DivingExamples}/>
         </div>
         <Card style={{textAlign: "center", background: "inherit"}}>
-          <img src="https://th.bing.com/th/id/OIP.Po8oq2jSJwuupdDRIMfxHQHaHa?w=167&h=180&c=7&o=5&dpr=1.25&pid=1.7" alt="python"
-          style={{height: "200px", width: "200px"}}></img>
         </Card>
       </div>
       </HashRouter>
