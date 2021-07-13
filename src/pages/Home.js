@@ -39,13 +39,13 @@ export default function Home() {
         </div>
         <div className="right">
         <div className="content" id="myContent">
-        <a href="/blogs" >
+        <a href="/swimanddive" >
         <div className="content-overlay"></div>
         <img src={"https://zzocpg.bl.files.1drv.com/y4mouc6fiNDTFVlmP5o_lprWzHZspTq2SsFgrb3KDLdhlvNq4ZunTA6bnQij168BHPb9FfWQj559VvnoB3rR-qEoxCfM0q2-TmCmEVKHoDLP76GJeTmi2nqKMb9AeuPMWK-E1yXlJSTZoxMXUN8eihkWH-d3ebaOG2kAOxOdUFKBU2bvlI_jVD1pBAmKGgAomp_k4Ekd5dqIvHhDXzgQ5ud4w?width=660&height=440&cropmode=none"} 
         width="100%" height="200" alt="Blogs"/>
         <div className="content-details fadeIn-bottom">
-          <h3 className="content-title">Adventures of Mr. Daab</h3>
-            <p className="content-text">What is he getting into now? A little about everything.</p>
+          <h3 className="content-title">Coach Daab</h3>
+            <p className="content-text">Everything about swim and dive!</p>
         </div>
         </a>
       </div>
