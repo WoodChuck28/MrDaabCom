@@ -22,9 +22,9 @@ class Dives extends Component {
         
         <div className="content">
           <Route path="/101b" component={frontPike}/>
-          <Route path="/102b" component={DivingCompetition}/>
-          <Route path="/103b" component={DivingSuccess}/>
-          <Route path="/104b" component={DivingExamples}/>
+          <Route path="/102b" component={frontPike}/>
+          <Route path="/103b" component={frontPike}/>
+          <Route path="/104b" component={frontPike}/>
         </div>
         <Card style={{textAlign: "center", background: "inherit"}}>
           <img src="https://th.bing.com/th/id/OIP.Po8oq2jSJwuupdDRIMfxHQHaHa?w=167&h=180&c=7&o=5&dpr=1.25&pid=1.7" alt="python"
