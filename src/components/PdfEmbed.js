@@ -10,7 +10,7 @@ const options = {
 };
 
 export default function EmbedPDF() {
-  const [file, setFile] = useState('./sample.pdf');
+  const [file, setFile] = useState('./DaabDiving.pdf');
   const [numPages, setNumPages] = useState(null);
 
   function onFileChange(event) {
