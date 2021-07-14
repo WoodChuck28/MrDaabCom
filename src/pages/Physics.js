@@ -1,14 +1,13 @@
 import React from "react";
 import SideNav from "../components/SideNav";
+import wid from "../components/SideNav";
+
 import ResponsiveGrid from "../components/MyGrid";
 import { Card } from "@material-ui/core";
 import "./styles/Physics.css";
 
 export default function Physics() {
   function displayMainPhysics(props, state) {
-    const openSidenav = ( ) => {
-      setWid("0%")
-   }
     return (
       <div className="mainClass" style={{backgroundColor: "#354e01"}}>
       <div></div>

@@ -8,7 +8,7 @@ const SideNav = (props) => {
      };
      
 return (
-<div className='sidenav' width = {props.width} paddingTop= "20px" >
+<div className='sidenav' style={{width: props.width, paddingTop: "20px"}}>
 <button onClick={openSidenav}>Open</button>
    <a href='#section'>About</a>
    <a href='#section'>Services</a>

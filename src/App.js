@@ -9,7 +9,7 @@ import Routes from "./Routes";
 import MyFooter from "./components/myFooter"
 import "./App.css";
 
-function App() {
+function App(props, state) {
   const [isAuthenticating, setIsAuthenticating] = useState(true);
   const [isAuthenticated, userHasAuthenticated] = useState(false);
 
