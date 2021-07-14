@@ -6,7 +6,7 @@ class DaabDiving extends Component {
   render() {
     return (
       <div className="myDivingClass">
-          <EmbedPDF />, document.getElementById('react-root')
+          <EmbedPDF>document.getElementById('react-root')</EmbedPDF>
       </div>
     );
   }
