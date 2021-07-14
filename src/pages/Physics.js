@@ -23,7 +23,7 @@ export default function Physics() {
             <li><strong style={{fontSize: "18px"}}>5. EXAMPLES: Link to worked examples from the notes tab</strong></li>
             </ul>
         </Card>
-        <SideNav name="Jonathan" closeNav={closeSidenav}/>
+        <SideNav name="Jonathan" closeNav={props.closeSidenav}/>
         <ResponsiveGrid style={{background:"#354e01",  backgroundColor: "#354e01"}} className="testertester"></ResponsiveGrid>
       </div>
     );
