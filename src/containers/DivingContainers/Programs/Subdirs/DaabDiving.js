@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import "../../../styles/CollegeBoardDoc.css";
-import Sample from './Sample';
+import EmbedPDF from "../../../../components/PdfEmbed";
  
 class DaabDiving extends Component {
   render() {
     return (
       <div className="myDivingClass">
-          <Sample />, document.getElementById('react-root')
+          <EmbedPDF />, document.getElementById('react-root')
       </div>
     );
   }
