@@ -6,6 +6,9 @@ const SideNav = (props) => {
     const openSidenav = ( ) => {
         setWid("25%")
      };
+     const openSidenav = ( ) => {
+        setWid("0%")
+     };
      
 return (
 <div className='sidenav' style={{width: props.width, paddingTop: "20px"}}>
@@ -15,7 +18,7 @@ return (
    <a href='#section'>Clients</a>
    <a href='#section'>Contact</a>
    <a href="#section">{props.name}</a>
-   <button onClick={props.closeNav}>X</button>
+<button onClick={props.closeSidenav}>X</button>
 </div>
  );
 };
