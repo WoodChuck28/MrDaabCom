@@ -5,9 +5,7 @@ import {
   NavLink
 } from "react-router-dom";
 
-import DivingHistory from "./SubDirs/History";
-import DivingCompetition from "./SubDirs/Competition";
-import DivingSuccess from "./SubDirs/Success";
+import DaabDiving from "./Subdirs/DaabDiving";
 
 import { Card } from "@material-ui/core";
 
@@ -24,9 +22,9 @@ class Programs extends Component {
       </ul>
         
         <div className="content">
-          <Route path="/daabDiving" component={DivingHistory}/>
-          <Route path="/bulldog" component={DivingCompetition}/>
-          <Route path="/ada" component={DivingSuccess}/>
+          <Route path="/daabDiving" component={DaabDiving}/>
+          <Route path="/bulldog" component={DaabDiving}/>
+          <Route path="/ada" component={DaabDiving}/>
         </div>
         <Card style={{textAlign: "center", background: "inherit"}}>
         </Card>
