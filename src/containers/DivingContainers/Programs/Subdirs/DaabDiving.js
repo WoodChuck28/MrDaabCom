@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import "../../../styles/CollegeBoardDoc.css";
-import React from 'react';
-import { render } from 'react-dom';
 import Sample from './Sample';
  
 class DaabDiving extends Component {
