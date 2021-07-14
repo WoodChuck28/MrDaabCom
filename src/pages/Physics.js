@@ -1,10 +1,11 @@
 import React from "react";
+import SideNav from "../components/SideNav";
 import ResponsiveGrid from "../components/MyGrid";
 import { Card } from "@material-ui/core";
 import "./styles/Physics.css";
 
 export default function Physics() {
-  function displayMainPhysics() {
+  function displayMainPhysics(props, state) {
     return (
       <div className="mainClass" style={{backgroundColor: "#354e01"}}>
       <div></div>
@@ -20,6 +21,7 @@ export default function Physics() {
             <li><strong style={{fontSize: "18px"}}>5. EXAMPLES: Link to worked examples from the notes tab</strong></li>
             </ul>
         </Card>
+        <SideNav name='Chuck' />
         <ResponsiveGrid style={{background:"#354e01",  backgroundColor: "#354e01"}} className="testertester"></ResponsiveGrid>
       </div>
     );
