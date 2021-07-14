@@ -33,6 +33,7 @@ import Thermo from "./containers/PhysicsContainers/Thermo";
 import Intro from "./containers/DivingContainers/Intro/Intro";
 import Dives from "./containers/DivingContainers/Dives/Dives";
 import DivingNumbers from "./containers/DivingContainers/Numbers/DiveNumbers";
+import Programs from "./containers/DivingContainers/Programs/Programs";
 
 export default function Routes() {
   return (
@@ -60,6 +61,9 @@ export default function Routes() {
       </UnauthenticatedRoute>
       <UnauthenticatedRoute exact path="/Intro">
         <Intro />
+      </UnauthenticatedRoute>
+      <UnauthenticatedRoute exact path="/Programs">
+        <Programs />
       </UnauthenticatedRoute>
       <UnauthenticatedRoute exact path="/Dives">
         <Dives />
