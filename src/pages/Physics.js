@@ -3,7 +3,6 @@ import ResponsiveGrid from "../components/MyGrid";
 import { Card } from "@material-ui/core";
 import "./styles/Physics.css";
 import '@trendmicro/react-sidenav/dist/react-sidenav.css';
-import SideNav, { Toggle, Nav, NavItem, NavIcon, NavText } from '@trendmicro/react-sidenav';
 
 export default function Physics() {
   function displayMainPhysics() {
