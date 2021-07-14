@@ -6,7 +6,7 @@ class DaabDiving extends Component {
   render() {
     return (
       <div className="myDivingClass">
-          <Document file="./DaabDiving.pdf"></Document>
+          <Document file="DaabDiving.pdf"></Document>
       </div>
     );
   }
