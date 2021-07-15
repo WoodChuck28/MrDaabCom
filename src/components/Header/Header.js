@@ -5,8 +5,11 @@ import Dynamics from "../../containers/PhysicsContainers/Dynamics"
 import Energy from "../../containers/PhysicsContainers/Energy"
 import Momentum from "../../containers/PhysicsContainers/Momo"
 
+import PhysicsMenuButton from "../PhysicsMenuButton";
+
 import {
   Route,
+  HashRouter,
   NavLink
 } from "react-router-dom";
 
@@ -62,13 +65,15 @@ const Header = () => {
           </SidebarHeader>
           <SidebarContent>
             <Menu>
+              <HashRouter>
               <MenuItem active={true} >
                 Home
               </MenuItem>
-              <MenuItem style={{fontSize: "10px"}}><NavLink to="/kinematics" style={{color: "black"}}>Kinematics</NavLink></MenuItem>
+              <MenuItem style={{fontSize: "10px"}}><PhysicsMenuButton></PhysicsMenuButton></MenuItem>
               <MenuItem style={{fontSize: "10px"}}><NavLink to="/dynamics" style={{color: "black"}}>Dynamics</NavLink></MenuItem>
               <MenuItem style={{fontSize: "10px"}}><NavLink to="/energy" style={{color: "black"}}>Energy</NavLink></MenuItem>
               <MenuItem style={{fontSize: "10px"}}><NavLink to="/momentum" style={{color: "black"}}>Momentum</NavLink></MenuItem>
+              </HashRouter>
             </Menu>
           </SidebarContent>
           <SidebarFooter>
@@ -78,7 +83,7 @@ const Header = () => {
           </SidebarFooter>
         </ProSidebar>
         <div className="content">
-          <Route path="/kinematics" component={Kinematics}/>
+          <Route path="/CollegeBoard" component={CollegeBoardKine}/>
           <Route path="/dynamics" component={Dynamics}/>
           <Route path="/energy" component={Energy}/>
           <Route path="/momentum" component={Momentum}/>
