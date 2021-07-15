@@ -1,6 +1,6 @@
 //import useState hook to create menu collapse state
 import React, { useState } from "react";
-import Kinematics from "../../containers/Kinematics";
+import CollegeBoardKine from "../../containers/CBKine"
 import Dynamics from "../../containers/PhysicsContainers/Dynamics"
 import Energy from "../../containers/PhysicsContainers/Energy"
 import Momentum from "../../containers/PhysicsContainers/Momo"
