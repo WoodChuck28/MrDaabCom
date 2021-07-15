@@ -22,7 +22,6 @@ export default function Physics() {
             <li><strong style={{fontSize: "18px"}}>5. EXAMPLES: Link to worked examples from the notes tab</strong></li>
             </ul>
         </Card>
-        <ResponsiveGrid style={{background:"#354e01",  backgroundColor: "#354e01"}} className="testertester"></ResponsiveGrid>
       </div>
       </div>
     );
