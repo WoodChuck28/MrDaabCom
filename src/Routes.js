@@ -80,7 +80,7 @@ export default function Routes() {
       <UnauthenticatedRoute exact path="/signup">
         <Signup />
       </UnauthenticatedRoute>
-      <Route exact path="/physics">
+      <Route exact path="/physics/">
         <Physics />
       </Route>
       <Route exact path="/schedule">
