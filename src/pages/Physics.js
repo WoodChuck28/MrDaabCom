@@ -17,8 +17,9 @@ export default function Physics() {
     return (
       <div className="mainClass" style={{backgroundColor: "#354e01"}}>
         <HashRouter>
-          <Header></Header>
+          
         <div className="content">
+        <Header></Header>
           <Route path="/kinematics" component={Kinematics}/>s
           <Route path="/dynamics" component={Dynamics}/>
           <Route path="/energy" component={Energy}/>
