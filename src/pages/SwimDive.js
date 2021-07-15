@@ -1,6 +1,7 @@
 import React from "react";
 import ResponsiveDivingGrid from "../components/MyDiveGrid";
 import { Card } from "@material-ui/core";
+import divingIMG from "../pages/images/diving101.jpg"
 
   export default function DivingPage() {
       return(
@@ -8,6 +9,7 @@ import { Card } from "@material-ui/core";
       
         <Card className="physHeader" style={{background: "#354e01", backgroundColor: "#354e01", padding: "5px"}}>
           <h1>Click on a button below to check out that Diving topic.</h1>
+          <img src={DivingIMG} alt ="Diving"></img>
           <br/>
         </Card>
         <Card style={{padding: "10px", background: "inherit"}}>
