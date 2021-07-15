@@ -2,6 +2,11 @@
 import React, { useState } from "react";
 import Kinematics from "../../containers/Kinematics";
 
+import {
+  Route,
+  NavLink
+} from "react-router-dom";
+
 //import react pro sidebar components
 import {
   ProSidebar,
