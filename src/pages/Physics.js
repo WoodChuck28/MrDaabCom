@@ -1,5 +1,4 @@
 import React from "react";
-import ResponsiveGrid from "../components/MyGrid";  
 import { Card } from "@material-ui/core";
 import "./styles/Physics.css";
 import Header from "../components/Header/Header";
