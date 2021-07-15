@@ -9,7 +9,7 @@ import divingIMG from "../pages/images/diving101.jpg"
       
         <Card className="physHeader" style={{background: "#354e01", backgroundColor: "#354e01", padding: "5px"}}>
           <h1>Click on a button below to check out that Diving topic.</h1>
-          <img src={DivingIMG} alt ="Diving"></img>
+          <img src={divingIMG} alt ="Diving"></img>
           <br/>
         </Card>
         <Card style={{padding: "10px", background: "inherit"}}>
