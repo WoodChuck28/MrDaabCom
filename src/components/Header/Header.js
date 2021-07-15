@@ -1,5 +1,6 @@
 //import useState hook to create menu collapse state
 import React, { useState } from "react";
+import Kinematics from "../../containers/Kinematics";
 
 //import react pro sidebar components
 import {
@@ -56,7 +57,7 @@ const Header = () => {
               <MenuItem active={true} >
                 Home
               </MenuItem>
-              <MenuItem >Kinematics</MenuItem>
+              <MenuItem ><NavLink to="/kinematics" style={{color: "white"}}>Diving w the Daab - Suwanee</NavLink></MenuItem>
               <MenuItem >Dynamics</MenuItem>
               <MenuItem >Energy</MenuItem>
               <MenuItem >Momentum</MenuItem>
@@ -68,6 +69,9 @@ const Header = () => {
             </Menu>
           </SidebarFooter>
         </ProSidebar>
+        <div className="content">
+          <Route path="/kinematics" component={Kinematics}/>
+          </div>
       </div>
     
   );
