@@ -1,13 +1,15 @@
 import React, { Component } from "react";
 import "../../../styles/CollegeBoardDoc.css";
-import { Document } from 'react-pdf';
+import SinglePage from "../../../../components/PDF/SinglePage";
+import DaabDiving from "./DaabDiving.pdf";
  
 class DaabDiving extends Component {
   render() {
     return (
-      <div className="myDivingClass">
-          <Document file="DaabDiving.pdf"></Document>
-      </div>
+      <div className="App">
+      <h4>Single Page</h4>
+      <SinglePage pdf={DaabDiving} />
+    </div>
     );
   }
 }
