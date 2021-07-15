@@ -8,6 +8,7 @@ export default function Physics() {
   function displayMainPhysics() {
     return (
       <div className="mainClass" style={{backgroundColor: "#354e01"}}>
+        <Header></Header>
       <div></div>
         <Card className="physHeader" style={{background: "#354e01", backgroundColor: "#354e01", borderColor: "black", borderWidth: "3px", borderStyle: "solid", 
         padding: "5px"}}>
@@ -21,9 +22,6 @@ export default function Physics() {
             <li><strong style={{fontSize: "18px"}}>5. EXAMPLES: Link to worked examples from the notes tab</strong></li>
             </ul>
         </Card>
-        <div className="App">
-          <Header></Header>
-        </div>
         <ResponsiveGrid style={{background:"#354e01",  backgroundColor: "#354e01"}} className="testertester"></ResponsiveGrid>
       </div>
     );
