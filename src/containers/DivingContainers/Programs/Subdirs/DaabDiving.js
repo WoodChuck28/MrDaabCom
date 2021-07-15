@@ -4,7 +4,7 @@ import "../../../styles/CollegeBoardDoc.css";
 import SinglePage from "../../../../components/PDF/SinglePage";
 import AllPages from "../../../../components/PDF/AllPages";
 
-import DaabDive from "../../../../../public/daabdive.pdf"
+import DaabDive from "./daabdive.pdf"
 
 class DaabDiving extends Component {
   render() {
