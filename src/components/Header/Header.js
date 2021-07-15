@@ -54,19 +54,19 @@ const Header = () => {
             </div>
           </SidebarHeader>
           <SidebarContent>
-            <Menu iconShape="square">
-              <MenuItem active={true} icon={<FiHome />}>
+            <Menu>
+              <MenuItem active={true} >
                 Home
               </MenuItem>
-              <MenuItem icon={<FaList />}>Kinematics</MenuItem>
-              <MenuItem icon={<FaRegHeart />}>Dynamics</MenuItem>
-              <MenuItem icon={<RiPencilLine />}>Energy</MenuItem>
-              <MenuItem icon={<BiCog />}>Momentum</MenuItem>
+              <MenuItem >Kinematics</MenuItem>
+              <MenuItem >Dynamics</MenuItem>
+              <MenuItem >Energy</MenuItem>
+              <MenuItem >Momentum</MenuItem>
             </Menu>
           </SidebarContent>
           <SidebarFooter>
-            <Menu iconShape="square">
-              <MenuItem icon={<FiLogOut />}>Logout</MenuItem>
+            <Menu>
+              <MenuItem>Logout</MenuItem>
             </Menu>
           </SidebarFooter>
         </ProSidebar>
