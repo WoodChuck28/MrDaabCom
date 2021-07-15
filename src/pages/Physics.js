@@ -1,11 +1,9 @@
 import React from "react";
-import { Card } from "@material-ui/core";
 import "./styles/Physics.css";
 import Header from "../components/Header/Header";
 import {
   Route,
   HashRouter,
-  NavLink
 } from "react-router-dom";
 
 import Kinematics from "../containers/Kinematics";
@@ -15,6 +13,7 @@ export default function Physics() {
     return (
       <div className="mainClass" style={{backgroundColor: "#354e01"}}>
         <HashRouter>
+          <Header></Header>
         <div className="content">
           <Route path="/kinematics" component={Kinematics}/>
         </div>
