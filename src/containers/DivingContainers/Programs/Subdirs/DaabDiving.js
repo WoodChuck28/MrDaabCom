@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import "../../../styles/CollegeBoardDoc.css";
+
 import SinglePage from "../../../../components/PDF/SinglePage";
+import AllPages from "../../../../components/PDF/AllPages";
+
+
 import DaabDive from "./daabdive.pdf";
  
 class DaabDiving extends Component {
@@ -14,7 +18,7 @@ class DaabDiving extends Component {
 
       <h4>All Pages</h4>
       <div className="all-page-container">
-        <AllPagesPDFViewer pdf={DaabDive} />
+        <AllPages pdf={DaabDive} />
       </div>
 
       <hr />
