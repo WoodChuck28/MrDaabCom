@@ -1,6 +1,9 @@
 //import useState hook to create menu collapse state
 import React, { useState } from "react";
 import Kinematics from "../../containers/Kinematics";
+import Dynamics from "../../containers/PhysicsContainers/Dynamics"
+import Energy from "../../containers/PhysicsContainers/Energy"
+import Momentum from "../../containers/PhysicsContainers/Momo"
 
 import {
   Route,
@@ -63,9 +66,9 @@ const Header = () => {
                 Home
               </MenuItem>
               <MenuItem style={{fontSize: "10px"}}><NavLink to="/kinematics" style={{color: "white"}}>Kinematics</NavLink></MenuItem>
-              <MenuItem >Dynamics</MenuItem>
-              <MenuItem >Energy</MenuItem>
-              <MenuItem >Momentum</MenuItem>
+              <MenuItem style={{fontSize: "10px"}}><NavLink to="/dynamics" style={{color: "white"}}>Dynamics</NavLink></MenuItem>
+              <MenuItem style={{fontSize: "10px"}}><NavLink to="/energy" style={{color: "white"}}>Energy</NavLink></MenuItem>
+              <MenuItem style={{fontSize: "10px"}}><NavLink to="/momentum" style={{color: "white"}}>Momentum</NavLink></MenuItem>
             </Menu>
           </SidebarContent>
           <SidebarFooter>
@@ -76,6 +79,9 @@ const Header = () => {
         </ProSidebar>
         <div className="content">
           <Route path="/kinematics" component={Kinematics}/>
+          <Route path="/dynamics" component={Dynamics}/>
+          <Route path="/energy" component={Energy}/>
+          <Route path="/momentum" component={Momentum}/>
           </div>
       </div>
     
