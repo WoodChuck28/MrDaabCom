@@ -61,7 +61,7 @@
     padding: 20px;
   }
 
-  #header .pro-menu-item {
+  #header .pro-menu-item .active {
     max-height: 30px;
   }
   

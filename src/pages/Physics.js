@@ -9,7 +9,7 @@ export default function Physics() {
     return (
       <div className="mainClass" style={{backgroundColor: "#354e01"}}>
         <Header></Header>
-      <div></div>
+        <div className="content">
         <Card className="physHeader" style={{background: "#354e01", backgroundColor: "#354e01", borderColor: "black", borderWidth: "3px", borderStyle: "solid", 
         padding: "5px"}}>
           <h1>Guide to using the physics pages:</h1>
@@ -23,6 +23,7 @@ export default function Physics() {
             </ul>
         </Card>
         <ResponsiveGrid style={{background:"#354e01",  backgroundColor: "#354e01"}} className="testertester"></ResponsiveGrid>
+      </div>
       </div>
     );
   }
