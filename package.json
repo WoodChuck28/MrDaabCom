@@ -66,6 +66,7 @@
     "react-bootstrap": "^0.33.1",
     "react-dom": "^16.14.0",
     "react-hook-form": "^5.7.2",
+    "react-icons": "^4.2.0",
     "react-iframe": "^1.8.0",
     "react-pdf": "^5.3.2",
     "react-player": "^2.9.0",
