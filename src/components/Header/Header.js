@@ -62,7 +62,7 @@ const Header = () => {
               <MenuItem active={true} >
                 Home
               </MenuItem>
-              <MenuItem ><NavLink to="/kinematics" style={{color: "white"}}>Diving w the Daab - Suwanee</NavLink></MenuItem>
+              <MenuItem style={{fontSize: "10px"}}><NavLink to="/kinematics" style={{color: "white"}}>Kinematics</NavLink></MenuItem>
               <MenuItem >Dynamics</MenuItem>
               <MenuItem >Energy</MenuItem>
               <MenuItem >Momentum</MenuItem>
