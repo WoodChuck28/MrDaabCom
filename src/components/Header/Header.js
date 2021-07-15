@@ -65,10 +65,10 @@ const Header = () => {
               <MenuItem active={true} >
                 Home
               </MenuItem>
-              <MenuItem style={{fontSize: "10px"}}><NavLink to="/kinematics" style={{color: "white"}}>Kinematics</NavLink></MenuItem>
-              <MenuItem style={{fontSize: "10px"}}><NavLink to="/dynamics" style={{color: "white"}}>Dynamics</NavLink></MenuItem>
-              <MenuItem style={{fontSize: "10px"}}><NavLink to="/energy" style={{color: "white"}}>Energy</NavLink></MenuItem>
-              <MenuItem style={{fontSize: "10px"}}><NavLink to="/momentum" style={{color: "white"}}>Momentum</NavLink></MenuItem>
+              <MenuItem style={{fontSize: "10px"}}><NavLink to="/kinematics" style={{color: "black"}}>Kinematics</NavLink></MenuItem>
+              <MenuItem style={{fontSize: "10px"}}><NavLink to="/dynamics" style={{color: "black"}}>Dynamics</NavLink></MenuItem>
+              <MenuItem style={{fontSize: "10px"}}><NavLink to="/energy" style={{color: "black"}}>Energy</NavLink></MenuItem>
+              <MenuItem style={{fontSize: "10px"}}><NavLink to="/momentum" style={{color: "black"}}>Momentum</NavLink></MenuItem>
             </Menu>
           </SidebarContent>
           <SidebarFooter>
