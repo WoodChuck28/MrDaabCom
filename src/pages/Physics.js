@@ -2,7 +2,7 @@ import React from "react";
 import ResponsiveGrid from "../components/MyGrid";  
 import { Card } from "@material-ui/core";
 import "./styles/Physics.css";
-import '@trendmicro/react-sidenav/dist/react-sidenav.css';
+import Header from "../components/Header/Header";
 
 export default function Physics() {
   function displayMainPhysics() {
@@ -21,6 +21,9 @@ export default function Physics() {
             <li><strong style={{fontSize: "18px"}}>5. EXAMPLES: Link to worked examples from the notes tab</strong></li>
             </ul>
         </Card>
+        <div className="App">
+          <Header></Header>
+        </div>
         <ResponsiveGrid style={{background:"#354e01",  backgroundColor: "#354e01"}} className="testertester"></ResponsiveGrid>
       </div>
     );
