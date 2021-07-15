@@ -86,10 +86,10 @@ export default function Routes() {
       <Route exact path="/schedule">
         <Scheduler />
       </Route>
-      <UnauthenticatedRoute exact path="/kinematics">
+      <UnauthenticatedRoute exact path="/physics/kinematics">
         <Kinematics />
       </UnauthenticatedRoute>
-      <UnauthenticatedRoute exact path="/dynamics">
+      <UnauthenticatedRoute exact path="/physics/dynamics">
         <Dynamics />
       </UnauthenticatedRoute>
       <UnauthenticatedRoute exact path="/ucm">
