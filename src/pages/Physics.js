@@ -10,7 +10,6 @@ import Kinematics from "../containers/Kinematics";
 import Dynamics from "../containers/PhysicsContainers/Dynamics";
 import Energy from "../containers/PhysicsContainers/Energy";
 import Momo from "../containers/PhysicsContainers/Momo";
-import Rotation from "../containers/PhysicsContainers/Rotation";
 import { Card } from "@material-ui/core";
 
 export default function Physics() {
@@ -20,16 +19,34 @@ export default function Physics() {
         <HashRouter>
           <Card>
             <div className="body">
-            <NavLink to="/kinematics" style={{color: "white"}}>Kinematics</NavLink>
+              <div className="entry">
+                <NavLink to="/kinematics" style={{color: "white"}}>Kinematics</NavLink>
+                <Route path="/kinematics" component={Kinematics}/>
+              </div>
+              <div className="entry">
+              <NavLink to="/dynamics" style={{color: "white"}}>Dynamics</NavLink>
+              <Route path="/dynamics" component={Dynamics}/>
+              </div>
+              <div className="entry">
+                <NavLink to="/energy" style={{color: "white"}}>Energy</NavLink>
+                <Route path="/energy" component={Energy}/>
+              </div>
+              <div className="entry">
+                <NavLink to="/momentum" style={{color: "white"}}>Momentum</NavLink>
+                <Route path="/momentum" component={Momo}/>
+              </div>
+
             </div>
+            
           </Card>
+          
         
         <div className="content">
-          <Route path="/kinematics" component={Kinematics}/>s
-          <Route path="/dynamics" component={Dynamics}/>
-          <Route path="/energy" component={Energy}/>
+          
+          
+          
           <Route path="/momentum" component={Momo}/>
-          <Route path="/rotation" component={Rotation}/>
+          
         </div>
         </HashRouter>
       </div>
