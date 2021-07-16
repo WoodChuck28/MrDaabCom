@@ -21,40 +21,27 @@ export default function Physics() {
             <div className="body">
               <div className="entry">
                 <NavLink to="/kinematics" style={{color: "black"}}>Kinematics</NavLink>
-                <p>
+                <p style={{width: "80%"}}>
                   This unit will cover everything from vector addition to 2-body kinematics problems. 
                 </p>
-                <br />
-                <Route path="/kinematics" component={Kinematics}/>
+                
               </div>
               <div className="entry">
               <NavLink to="/dynamics" style={{color: "black"}}>Dynamics</NavLink>
-              <br />
               <Route path="/dynamics" component={Dynamics}/>
               </div>
               <div className="entry">
                 <NavLink to="/energy" style={{color: "black"}}>Energy</NavLink>
-                <br />
                 <Route path="/energy" component={Energy}/>
               </div>
               <div className="entry">
                 <NavLink to="/momentum" style={{color: "black"}}>Momentum</NavLink>
-                <br />
                 <Route path="/momentum" component={Momo}/>
               </div>
 
             </div>
             
           </Card>
-          
-        
-        <div className="content">
-          
-          
-          
-          <Route path="/momentum" component={Momo}/>
-          
-        </div>
         </HashRouter>
       </div>
     );
