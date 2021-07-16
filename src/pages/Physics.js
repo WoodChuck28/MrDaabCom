@@ -20,19 +20,26 @@ export default function Physics() {
           <Card>
             <div className="body">
               <div className="entry">
-                <NavLink to="/kinematics" style={{color: "white"}}>Kinematics</NavLink>
+                <NavLink to="/kinematics" style={{color: "black"}}>Kinematics</NavLink>
+                <p>
+                  This unit will cover everything from vector addition to 2-body kinematics problems. 
+                </p>
+                <br />
                 <Route path="/kinematics" component={Kinematics}/>
               </div>
               <div className="entry">
-              <NavLink to="/dynamics" style={{color: "white"}}>Dynamics</NavLink>
+              <NavLink to="/dynamics" style={{color: "black"}}>Dynamics</NavLink>
+              <br />
               <Route path="/dynamics" component={Dynamics}/>
               </div>
               <div className="entry">
-                <NavLink to="/energy" style={{color: "white"}}>Energy</NavLink>
+                <NavLink to="/energy" style={{color: "black"}}>Energy</NavLink>
+                <br />
                 <Route path="/energy" component={Energy}/>
               </div>
               <div className="entry">
-                <NavLink to="/momentum" style={{color: "white"}}>Momentum</NavLink>
+                <NavLink to="/momentum" style={{color: "black"}}>Momentum</NavLink>
+                <br />
                 <Route path="/momentum" component={Momo}/>
               </div>
 
