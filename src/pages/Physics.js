@@ -6,7 +6,6 @@ import {
   NavLink,
 } from "react-router-dom";
 
-import Kinematics from "../containers/Kinematics";
 import Dynamics from "../containers/PhysicsContainers/Dynamics";
 import Energy from "../containers/PhysicsContainers/Energy";
 import Momo from "../containers/PhysicsContainers/Momo";
