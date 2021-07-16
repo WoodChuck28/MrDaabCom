@@ -62,7 +62,7 @@ const Header = () => {
           <SidebarContent>
             <Menu>
               <HashRouter>
-              <MenuItem style={{fontSize: "10px"}} active={true}><NavLink to="/physics" style={{color: "black"}}>Home</NavLink></MenuItem>
+              <MenuItem style={{fontSize: "10px", height: "150px"}} active={true}><NavLink to="/physics" style={{color: "black"}}>Home</NavLink></MenuItem>
               <MenuItem style={{fontSize: "10px"}}><NavLink to="/kinematics" style={{color: "black"}}>Kinematics</NavLink></MenuItem>
               <MenuItem style={{fontSize: "10px"}}><NavLink to="/dynamics" style={{color: "black"}}>Dynamics</NavLink></MenuItem>
               <MenuItem style={{fontSize: "10px"}}><NavLink to="/energy" style={{color: "black"}}>Energy</NavLink></MenuItem>
