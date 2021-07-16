@@ -31,7 +31,7 @@ export default function Physics() {
   }
 
   return (
-    <div className="Physics" style={{height: "100%"}}>
+    <div className="Physics" style={{minHeight: "750px"}}>
       {displayMainPhysics()}
     </div>
   );
