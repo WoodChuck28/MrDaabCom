@@ -1,3 +1,296 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7dead8b3e01e082f07963707308d012bd1f7a8c661c5435b1ceae7abaa028d87
-size 5355
+.Home .lander h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+  }
+  
+  .Home .notes h4 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    overflow: hidden;
+    line-height: 1.5;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  
+  .Home .lander div {
+    padding-top: 20px;
+  }
+  .Home .lander div a:first-child {
+    margin-right: 20px;
+  }
+  
+  .Home .btn {
+    margin: 10px;
+  }
+  
+  .h1 {
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the header */
+  .header {
+    grid-area: header;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20px;
+  }
+  
+  /* The grid container */
+  .grid-container {
+    display: grid;
+    grid-template-areas: 
+      'header header header header header header' 
+      'left left middle middle right right' 
+      'footer footer footer footer footer footer';
+    /* grid-column-gap: 10px; - if you want gap between the columns */
+  } 
+  
+  .left,
+  .middle,
+  .right {
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  /* Style the left column */
+  .left {
+    border-radius: 20px;
+    background: inherit;
+    grid-area: left;
+    text-align: center;
+    
+  }
+  
+  /* Style the middle column */
+  .middle {
+    border-radius: 20px;
+    grid-area: middle;
+    text-align: center;
+    background: inherit;
+    
+  }
+  
+  /* Style the right column */
+  .right {
+    border-radius: 20px;
+    grid-area: right;
+    text-align: center;
+    background: inherit;
+  }
+  
+  /* Style the footer */
+  .footer {
+    grid-area: footer;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    .grid-container  {
+      grid-template-areas: 
+        'header header header header header' 
+        'left left left left left left' 
+        'middle middle middle middle middle middle' 
+        'right right right right right right' 
+        'footer footer footer footer footer footer';
+    }
+  }
+  
+  .image1 {
+    display: block;
+    width: 100%;
+  }
+  
+  .image2 {
+    display: block;
+    width: 100%;
+  }
+  
+  .image3 {
+    display: block;
+    width: 100%;
+    
+  }
+  .grid-container {
+    background-color: inherit;
+  }
+
+  .overlay1 {
+    position: absolute; 
+    opacity: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding-left: 10px;
+    margin-bottom: 40px;
+    border-radius: 50px;
+  }
+  
+  .overlay2 {
+    position: absolute; 
+    opacity: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding-left: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .overlay3 {
+    position: absolute; 
+    opacity: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding-left: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .left:hover .overlay1 {
+    opacity: 1;
+  }
+  
+  .middle:hover .overlay2 {
+    opacity: 1;
+  }
+  
+  .right:hover .overlay3 {
+    opacity: 1;
+  }
+  
+  
+  
+  .btn {
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .container .title{
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 95%;
+  }
+  
+  .content {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .content .content-overlay {
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    border-radius: 50px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+  }
+  
+  #myContent {
+    padding-left: 0px!important;
+  }
+
+  .content:hover .content-overlay{
+    opacity: 1;
+  }
+  
+  .content-image{
+    width: 100%;
+  }
+  
+  .content-details {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  .content:hover .content-details{
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+  }
+  
+  .content-details h3{
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+  }
+  
+  .content-details p{
+    color: #fff;
+    font-size: 0.8em;
+  }
+  
+  .fadeIn-bottom{
+    top: 80%;
+  }
+  
+  *, *:before, *:after{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+  }
+  
+  .img {
+    width: 100%;
+    border-radius: 30px;
+  }
+  
+  .content {
+    border-radius: 20px;
+  }
+
+  h2 {
+    font-size: 48px;
+  }
+  
+  
+  
+  .container {
+    justify-content: center;
+   
+  }

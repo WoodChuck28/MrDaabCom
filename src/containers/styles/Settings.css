@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d75ee8fe81229e426c5125f2eb480538bdde666c1311eac93b310aeeb8c464c7
-size 143
+@media all and (min-width: 480px) {
+  .Settings {
+    padding: 60px 0;
+  }
+
+  .Settings form {
+    margin: 0 auto;
+    max-width: 480px;
+  }
+}

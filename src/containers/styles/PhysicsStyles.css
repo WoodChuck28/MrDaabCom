@@ -1,3 +1,56 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3248776e3034be205f54ed3cb4656f9b00883d6a7adaebfb95026f83e809bca2
-size 898
+body {
+    padding: 20px;
+    margin: 0;
+  }
+
+  .header {
+    background-color: #001a00;
+    border-radius: 20px;
+  }
+  h1, h2, p, ul, li {
+    font-family: sans-serif;
+  }
+
+  ul.header2 li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    color: white;
+  }
+
+  .header2 {
+    background-color: #001a00;
+    border-radius: 20px;
+  }
+  h1, h2, p, ul, li {
+    font-family: sans-serif;
+  }
+  ul.header2 li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    color: white;
+  }
+
+  #myLink:hover {
+    color: red;
+  }
+  
+  .MyMenuButton, .MyMenuButton2, .MyMenuButton3 {
+    display:inline;
+    color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .MyMenuButton:hover, .MyMenuButton2:hover, .MyMenuButton3:hover {
+    color: lawngreen;
+  }
+
+  .MyMenuButton:active {
+    background: black;
+  }
+
+  .MyMenuButton-menuItem:hover {
+    color: lawngreen;
+  }

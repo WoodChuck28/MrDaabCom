@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:91b1c293c85cc30e4f5af222726500a6876fb2643d676405b69628b65d30e141
-size 355
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    background-color: inherit;
+    padding: 10px;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+  }

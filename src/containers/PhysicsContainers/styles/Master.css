@@ -1,3 +1,30 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b0f5b3a2bcd8f37db6477bc5f644538d12610dedb243bc9ecef8e70b5adf90b6
-size 371
+body {
+    padding: 20px;
+    margin: 0;
+  }
+
+  .header {
+    background-color: #001a00;
+    border-radius: 20px;
+  }
+  h1, h2, p, ul, li {
+    font-family: sans-serif;
+  }
+  ul.header li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    color: white;
+  }
+
+  #myLink:hover {
+    color: red;
+  }
+
+  h4 {
+    font-size: 28px;
+    color: white;
+  }
+ 
+  
+

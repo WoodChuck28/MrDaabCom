@@ -1,3 +1,59 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c14aa6f1aad2687b1e61739c72920ea48674994b97ae433cf054c1eb4a7dae7e
-size 652
+.App {
+  width: 100%;
+  background: #001a00;
+}
+
+.myCarousel {
+  text-align: center;
+  width: 100%;
+}
+
+.App .navbar-brand {
+  font-weight: bold;
+  padding: 3px;
+}
+
+.container {
+  width: 100%;
+}
+
+.navbar {
+  background-color:#001a00;
+  border-radius: 20px;
+  position: fixed;
+  width: 94.5%;
+  margin-top: none;
+  z-index: 2;
+  margin-bottom: 10px;
+}
+
+body {
+  padding: 0;
+}
+
+h1 {
+  margin: none;
+}
+
+.myFooter {
+  position: relative;
+  height: 50px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.Physics {
+  margin-top: 35px;
+}
+
+.header {
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 760px) {
+  #myNavHeader {
+    display: none;
+  }
+}

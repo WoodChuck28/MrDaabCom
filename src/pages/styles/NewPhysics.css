@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4a15b3be904732d6abc994b96ea906da0da07eab3e3e4b976f8f44f770bf2c37
-size 137
+.HeaderClass {
+    border: 5px solid;
+    border-color: black;
+    color: white;
+    background-color: inherit;
+    border-radius: 8px;
+}

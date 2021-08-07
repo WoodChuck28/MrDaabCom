@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:134cab55baabce3381f981b70bfc424d4af85c99683910cf61d6bfab63484e5a
-size 235
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  
+  .video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+  
