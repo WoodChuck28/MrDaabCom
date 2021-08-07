@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3257c106462d197c1a7150a2feedc31f5322d461907d6ef370c41ea730554281
-size 277
+import React from "react";
+
+/*Button.jsx */
+const Button = (props) => {
+    console.log(props.style);
+    return(
+        <button 
+            style= {props.style} 
+            onClick= {props.action}>    
+            {props.title} 
+        </button>)
+}
+
+export default Button;
