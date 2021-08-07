@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6c9b1f172ef2952745a9985b2185cf8ed9a13398adcb1d6210c055aa7a622b80
-size 326
+import React from "react";
+import "./styles/NotFound.css";
+
+export default function NotFound() {
+  return (
+    <div className="NotFound">
+      <h3>MR Daab hasn't created this page yet, so if you have stumbled upon this, kudos to you! <br/>
+      Remember the secret word, PLANAR, and receive a prize!</h3>
+    </div>
+  );
+}

@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ad7d0a1a6de17ac7c021e15300b8a61af388242bed03bb1be1d202670c7faa17
-size 500
+import React, { Component } from "react";
+ 
+class VocabularyKine extends Component {
+  render() {
+    return (
+      <div>
+        <h2>STUFF</h2>
+        <p>Mauris sem velit, vehicula eget sodales vitae,
+        rhoncus eget sapien:</p>
+        <ol>
+          <li>Nulla pulvinar diam</li>
+          <li>Facilisis bibendum</li>
+          <li>Vestibulum vulputate</li>
+          <li>Eget erat</li>
+          <li>Id porttitor</li>
+        </ol>
+      </div>
+    );
+  }
+}
+ 
+export default VocabularyKine;

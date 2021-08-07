@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:862229222a769c7b594fa2873c122320f28b07c4a7787f273fd56761ddbf8e7b
-size 447
+import React, { Component } from "react";
+import Iframe from 'react-iframe'
+import "../styles/Energy.css";
+ 
+class WavesInterference extends Component {
+  render() {
+    return (
+    <div className="myclass">
+    <Iframe src="https://phet.colorado.edu/sims/html/wave-interference/latest/wave-interference_en.html" 
+    width="100%" height="500" scrolling="no" allowfullscreen></Iframe>
+      </div>
+    );
+  }
+}
+ 
+export default WavesInterference;

@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:41d8153b26865b62e56bdc7338d8dd063732788842038286ae5324873ee54b64
-size 237
+import React from "react";
+import { Route } from "react-router-dom";
+
+export default function AppliedRoute({ component: C, appProps, ...rest }) {
+  return (
+    <Route {...rest} render={props => <C {...props} {...appProps} />} />
+  );
+}

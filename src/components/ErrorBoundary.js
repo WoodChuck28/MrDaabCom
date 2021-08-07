@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:52596f60dfca070c627ff84d20a2c2f0d49f45d78b9e5b5f01a7fee8544f1790
-size 568
+import React from "react";
+import { logError } from "../libs/errorLib";
+import "./styles/ErrorBoundary.css";
+
+export default class ErrorBoundary extends React.Component {
+  state = { hasError: false };
+
+  static getDerivedStateFromError(error) {
+    return { hasError: true };
+  }
+
+  componentDidCatch(error, errorInfo) {
+    logError(error, errorInfo);
+  }
+
+  render() {
+    return this.state.hasError ? (
+      <div className="ErrorBoundary">
+        <h3>Sorry there was a problem loading this page</h3>
+      </div>
+    ) : (
+      this.props.children
+    );
+  }
+}

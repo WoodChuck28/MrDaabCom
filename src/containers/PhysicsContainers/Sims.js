@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6c1146c89f653a764123096cf45b0f9608cb12ce6cf30c27dd7ae2c098424d7a
-size 446
+import React, { Component } from "react";
+import Iframe from 'react-iframe'
+import "./styles/Energy.css";
+ 
+class SimsEnergy extends Component {
+  render() {
+    return (
+    <div className="myclass">
+    <Iframe src="https://phet.colorado.edu/sims/html/energy-skate-park-basics/latest/energy-skate-park-basics_en.html" 
+    width="100%" height="500" scrolling="no" allowfullscreen></Iframe>
+      </div>
+    );
+  }
+}
+ 
+export default SimsEnergy;

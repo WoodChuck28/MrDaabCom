@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7bf677d0435e577156674453965d5f84fd8419ae001281efe885744fc320f5d5
-size 488
+import React, { Component } from "react";
+ 
+class VocabDyn extends Component {
+  render() {
+    return (
+      <div>
+        <h2>STUFF</h2>
+        <p>Mauris sem velit, vehicula eget sodales vitae,
+        rhoncus eget sapien:</p>
+        <ol>
+          <li>Nulla pulvinar diam</li>
+          <li>Facilisis bibendum</li>
+          <li>Vestibulum vulputate</li>
+          <li>Eget erat</li>
+          <li>Id porttitor</li>
+        </ol>
+      </div>
+    );
+  }
+}
+ 
+export default VocabDyn;

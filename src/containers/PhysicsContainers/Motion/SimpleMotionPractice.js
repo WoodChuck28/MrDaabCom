@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c33ab6e3f977360dcb5e0dc4f8ea0cb58a8c6120c015e6b5a9aca54037b160bf
-size 423
+import React, { Component } from "react";
+
+import AllPages from "../../../components/PDF/AllPages";
+
+import MotionPrac from "./MotionDisplacementPrac.pdf"
+
+ 
+class SimpleMotionPractice extends Component {
+  render() {
+    return (
+      <div className="myclass">  
+        <h4>Simple Motion Practice 1 - Dist v Disp</h4>
+        <AllPages pdf={MotionPrac} />
+      </div>
+    );
+  }
+}
+ 
+export default SimpleMotionPractice;

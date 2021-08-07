@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:daa1de65dd40434525696678775f51fdac1ec1b5217d62e3d49a2240d92c5cbc
-size 408
+import React, { Component } from "react";
+
+import AllPages from "../../../components/PDF/AllPages";
+
+import MotionNotes from "./1DMotionNotes.pdf"
+
+ 
+class SimpleMotionNotes extends Component {
+  render() {
+    return (
+      <div className="myclass">  
+        <h4>Simple Motion Notes - Graphing Focus</h4>
+        <AllPages pdf={MotionNotes} />
+      </div>
+    );
+  }
+}
+ 
+export default SimpleMotionNotes;

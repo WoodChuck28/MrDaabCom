@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fb72cd28395214589e56f64f364529cd316b5254fec4fecc7fc2135c72e97fda
-size 494
+import React, { Component } from "react";
+ 
+class VocabThermo extends Component {
+  render() {
+    return (
+      <div>
+        <h2>STUFF</h2>
+        <p>Mauris sem velit, vehicula eget sodales vitae,
+        rhoncus eget sapien:</p>
+        <ol>
+          <li>Nulla pulvinar diam</li>
+          <li>Facilisis bibendum</li>
+          <li>Vestibulum vulputate</li>
+          <li>Eget erat</li>
+          <li>Id porttitor</li>
+        </ol>
+      </div>
+    );
+  }
+}
+ 
+export default VocabThermo;

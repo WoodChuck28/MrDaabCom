@@ -1,3 +1,37 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f4b1edc23f15c5248e93b3754bc148429a235999e188d95b03385bd59ec5e110
-size 1024
+import React from 'react';
+import { Wrapper, Button, Menu, MenuItem } from 'react-aria-menubutton';
+import { NavLink } from 'react-router-dom';
+import "./styles/MyMenuButton.css"
+ 
+const menuItemWords = ['Vocabulary', 'Notes', 'Problems', 'Videos', 'Simulations'];
+ 
+export default class SimpleMotionMenuOne extends React.Component {
+  render() {
+    const menuItems = menuItemWords.map((word, i) => {
+      return (
+        <li key={i}><NavLink to={word} style={{color: "white"}}>
+          <MenuItem className='MyMenuButton-menuItem'>
+            {word}
+          </MenuItem>
+          </NavLink>
+        </li>
+      );
+    });
+ 
+    return (
+      <Wrapper
+        className='MyMenuButton'
+        onSelection={handleSelection}
+      >
+        <Button  className='MyMenuButton-button'>
+          Main Content
+        </Button>
+        <Menu style={{minWidth: "300px"}} className='MyMenuButton-menu'>
+          <ul>{menuItems}</ul>
+        </Menu>
+      </Wrapper>
+    );
+  }
+}
+ 
+function handleSelection(value, event) { }

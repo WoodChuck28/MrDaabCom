@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0fdfec85c57462f2a9b08096282e9ec4d7b47433597728c7a0c9b688c4e9a34c
-size 498
+import React, { Component } from "react";
+ 
+class VocabRotation extends Component {
+  render() {
+    return (
+      <div>
+        <h2>STUFF</h2>
+        <p>Mauris sem velit, vehicula eget sodales vitae,
+        rhoncus eget sapien:</p>
+        <ol>
+          <li>Nulla pulvinar diam</li>
+          <li>Facilisis bibendum</li>
+          <li>Vestibulum vulputate</li>
+          <li>Eget erat</li>
+          <li>Id porttitor</li>
+        </ol>
+      </div>
+    );
+  }
+}
+ 
+export default VocabRotation;

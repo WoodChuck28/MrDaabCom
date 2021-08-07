@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8f0e9b6119f99978712b03ad3d072cb16550d95e5f83f2f8ce7a7d4f3b34c66e
-size 457
+import React, { Component } from "react";
+import YoutubeEmbed from "../../../../components/youTubeEmbed";
+import "../../../styles/CollegeBoardDoc.css";
+import "../../../../pages/styles/Diving.css"
+ 
+class backTwoHalfPike extends Component {
+  render() {
+    return (
+        <div className="App">
+        <h1>Peter S. GHSA State Championship 205B</h1>
+        <YoutubeEmbed embedId="ObqTr6yq9UY" />
+      </div>
+    );
+  }
+}
+
+export default backTwoHalfPike;

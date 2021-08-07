@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d443ac21c07e662416e308be45d52ba18f91870ae3f7db473169b66f29111662
-size 488
+import React, { Component } from "react";
+ 
+class VocabUCM extends Component {
+  render() {
+    return (
+      <div>
+        <h2>STUFF</h2>
+        <p>Mauris sem velit, vehicula eget sodales vitae,
+        rhoncus eget sapien:</p>
+        <ol>
+          <li>Nulla pulvinar diam</li>
+          <li>Facilisis bibendum</li>
+          <li>Vestibulum vulputate</li>
+          <li>Eget erat</li>
+          <li>Id porttitor</li>
+        </ol>
+      </div>
+    );
+  }
+}
+ 
+export default VocabUCM;

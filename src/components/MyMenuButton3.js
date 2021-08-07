@@ -1,3 +1,36 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1c857adc00e3da8447e60aa31dbb8331f74db4f578c19ef1891c1e01bf9520d3
-size 925
+import React from 'react';
+import { Wrapper, Button, Menu, MenuItem } from 'react-aria-menubutton';
+import { NavLink } from 'react-router-dom';
+ 
+const menuItemWords = ['Homework', 'LabOne', 'LabTwo'];
+ 
+export default class MyMenuButton3 extends React.Component {
+  render() {
+    const menuItems = menuItemWords.map((word, i) => {
+      return (
+        <li key={i}><NavLink to={word} style={{color: "white"}}>
+          <MenuItem className='MyMenuButton-menuItem'>
+            {word}
+          </MenuItem>
+          </NavLink>
+        </li>
+      );
+    });
+ 
+    return (
+      <Wrapper
+        className='MyMenuButton'
+        onSelection={handleSelection}
+      >
+        <Button className='MyMenuButton-button'>
+          Assignments
+        </Button>
+        <Menu className='MyMenuButton-menu'>
+          <ul>{menuItems}</ul>
+        </Menu>
+      </Wrapper>
+    );
+  }
+}
+ 
+function handleSelection(value, event) { }

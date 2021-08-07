@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2a647aa6a0a915a7e459991025c9ed7f52e7d23dc5b20cbecad089abd0eb3d60
-size 476
+import React, { Component } from "react";
+import Iframe from 'react-iframe'
+import "../styles/CollegeBoardDoc.css";
+ 
+class WorkedExamplesThermo extends Component {
+  render() {
+    return (
+      <div>
+      <Iframe src="https://onedrive.live.com/embed?cid=453322899BA6D77B&resid=453322899BA6D77B%21131609&authkey=AEOxVX7nyXeR8Fw&em=2" 
+      width="100%" height="600" frameborder="0" scrolling="yes"></Iframe>
+      </div>
+    );
+  }
+}
+ 
+export default WorkedExamplesThermo;

@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:59d0673fe9b901af8614a580bd3c3c764712977a4cb76467d395d3a1cd58453c
-size 699
+import React, { useState } from "react";
+import { Document, Page, pdfjs } from "react-pdf";
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+
+export default function AllPages(props) {
+  const [numPages, setNumPages] = useState(null);
+
+  function onDocumentLoadSuccess({ numPages }) {
+    setNumPages(numPages);
+  }
+
+  const { pdf } = props;
+
+  return (
+    <Document
+      file={pdf}
+      options={{ workerSrc: "/pdf.worker.js" }}
+      onLoadSuccess={onDocumentLoadSuccess}
+    >
+      {Array.from(new Array(numPages), (el, index) => (
+        <Page key={`page_${index + 1}`} pageNumber={index + 1} />
+      ))}
+    </Document>
+  );
+}

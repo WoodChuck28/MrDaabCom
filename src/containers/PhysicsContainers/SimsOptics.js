@@ -1,3 +1,26 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cdc0efea8fdee01ba05e3e4c2c0ce2a538fbe173f3644eadb5d76362df4b066e
-size 922
+import React, { Component } from "react";
+import "./styles/Energy.css";
+import { HashRouter, NavLink, Route } from "react-router-dom";
+import BendingLight from "./multiSims/BendingLight";
+import WavesInterference from "./multiSims/WaveInterference";
+ 
+class SimsOptics extends Component {
+  render() {
+    return (
+      <HashRouter>
+      <div>
+        <ul className="header" style={{background: "#001a00"}}>
+        <li><NavLink to="/simsOptics/bendingLight" style={{color: "white"}}>Bending Light</NavLink></li>
+        <li><NavLink to="/simsOptics/waveInterference" style={{color: "white"}}>Wave Interference</NavLink></li>
+        </ul>
+        <div className="content">
+        <Route path="/simsOptics/bendingLight" component={BendingLight}/>
+        <Route path="/simsOptics/waveInterference" component={WavesInterference}/>
+        </div>
+      </div>
+      </HashRouter>
+    );
+  }
+}
+ 
+export default SimsOptics;

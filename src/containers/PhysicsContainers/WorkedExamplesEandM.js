@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:508dfd840d1dec152dfbe15fb0f7718ecec1f276674a0a11453ab46577a158bf
-size 474
+import React, { Component } from "react";
+import Iframe from 'react-iframe'
+import "../styles/CollegeBoardDoc.css";
+ 
+class WorkedExamplesEandM extends Component {
+  render() {
+    return (
+      <div>
+      <Iframe src="https://onedrive.live.com/embed?cid=453322899BA6D77B&resid=453322899BA6D77B%21131609&authkey=AEOxVX7nyXeR8Fw&em=2" 
+      width="100%" height="600" frameborder="0" scrolling="yes"></Iframe>
+      </div>
+    );
+  }
+}
+ 
+export default WorkedExamplesEandM;

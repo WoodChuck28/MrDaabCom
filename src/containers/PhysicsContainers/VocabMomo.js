@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5816c1df691116165bab1673dca1bf8bfc96ef4e28744b5ec282463ec4d0fb46
-size 490
+import React, { Component } from "react";
+ 
+class VocabMomo extends Component {
+  render() {
+    return (
+      <div>
+        <h2>STUFF</h2>
+        <p>Mauris sem velit, vehicula eget sodales vitae,
+        rhoncus eget sapien:</p>
+        <ol>
+          <li>Nulla pulvinar diam</li>
+          <li>Facilisis bibendum</li>
+          <li>Vestibulum vulputate</li>
+          <li>Eget erat</li>
+          <li>Id porttitor</li>
+        </ol>
+      </div>
+    );
+  }
+}
+ 
+export default VocabMomo;

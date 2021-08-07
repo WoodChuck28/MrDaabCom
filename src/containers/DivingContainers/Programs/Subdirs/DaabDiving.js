@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:72917d64f02a7697a8983bf620bb3d2d64fdf9fb18ba8a8cb668551e213009e1
-size 396
+import React, { Component } from "react";
+import "../../../styles/Diving.css";
+
+import SinglePage from "../../../../components/PDF/SinglePage";
+
+import DaabDive from "./daabdive.pdf"
+
+class DaabDiving extends Component {
+  render() {
+    return (
+      <div className="daabdive">
+      <h4>Single Page</h4>
+      <SinglePage pdf={DaabDive} />
+
+    </div>
+    );
+  }
+}
+ 
+export default DaabDiving;

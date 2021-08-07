@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6ecf88f5df9a433b262ab25c03204fe85562023340c8190885a23383215e2af2
-size 461
+import React, { Component } from "react";
+import YoutubeEmbed from "../../../../components/youTubeEmbed";
+import "../../../styles/CollegeBoardDoc.css";
+import "../../../../pages/styles/Diving.css"
+ 
+class inwardTwoHalfTuck extends Component {
+  render() {
+    return (
+        <div className="App">
+        <h1>Peter S. GHSA State Championship 305C</h1>
+        <YoutubeEmbed embedId="P-QkluToOVQ" />
+      </div>
+    );
+  }
+}
+
+export default inwardTwoHalfTuck;

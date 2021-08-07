@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8ab63ec7fbc9511f49bdeb237033ccb3591c4cd0afdfc02e805724ee93b0d73b
-size 411
+import React, { Component } from "react";
+import Iframe from 'react-iframe'
+
+class NotesUCM extends Component {
+  render() {
+    return (
+      <div>
+      <Iframe src="https://onedrive.live.com/embed?cid=453322899BA6D77B&resid=453322899BA6D77B%21131586&authkey=AMYQkTxyLoledH8&em=2" 
+      width="100%" height="600" frameborder="0" scrolling="yes"></Iframe>
+      </div>
+    );
+  }
+}
+ 
+export default NotesUCM;

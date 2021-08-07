@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9028fe04f3946fa4ece0ab66212a822577c4a9dc1d453da935f0768c6511a34e
-size 510
+import React from "react";
+import "./styles/Physics.css";
+
+
+import MyGrid from "../components/MyGrid";
+
+export default function Physics() {
+  function displayMainPhysics() {
+    return (
+      <div className="mainClass" style={{backgroundColor: "#354e01"}}>
+        <MyGrid style={{background:"#354e01",  backgroundColor: "#354e01"}} className="testertester"></MyGrid>
+      </div>
+    );
+  }
+
+  return (
+    <div className="Physics" style={{minHeight: "750px"}}>
+      {displayMainPhysics()}
+    </div>
+  );
+}

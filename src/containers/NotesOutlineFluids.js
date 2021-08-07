@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2539eed48c7b4f66cc50f74ed63204f70c4e502b479dcec8ea5a0f1aa85878b6
-size 459
+import React, { Component } from "react";
+import Iframe from 'react-iframe'
+import "./styles/CollegeBoardDoc.css";
+ 
+class NotesOutline extends Component {
+  render() {
+    return (
+      <div>
+      <Iframe src="https://onedrive.live.com/embed?cid=453322899BA6D77B&resid=453322899BA6D77B%21131616&authkey=AF9f9P6zFUb4D4k&em=2" 
+      width="100%" height="600" frameborder="0" scrolling="yes"></Iframe>
+      </div>
+    );
+  }
+}
+ 
+export default NotesOutline;

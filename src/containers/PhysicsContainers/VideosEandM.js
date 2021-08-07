@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:26f0afe67612fb78344cf20ab7a0f5b7d87fcb390b7bb3c6b827dda908bf2ac1
-size 432
+import React, { Component } from "react";
+import ReactPlayer from "react-player"
+import "./styles/VideoFluids.css"
+
+class VideosEandM extends Component {
+  render() {
+    return (
+        <div class="grid-container">
+            <ReactPlayer  url="https://www.youtube.com/watch?v=Fy1ngIoKmeQ"/>
+            <ReactPlayer  url="https://www.youtube.com/watch?v=XAaDjrbmFe0"/>
+        </div>
+    );
+  }
+}
+ 
+export default VideosEandM;
+

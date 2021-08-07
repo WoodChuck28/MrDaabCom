@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3e3e450b4f80f0c8ff403df0e4610b36444ed34ab5fca4cd6bbf8962281da97f
-size 420
+import React, { Component } from "react";
+import Iframe from 'react-iframe'
+import "./styles/Energy.css";
+ 
+class SimsEandM extends Component {
+  render() {
+    return (
+    <div className="myclass">
+    <Iframe src="https://phet.colorado.edu/sims/html/faradays-law/latest/faradays-law_en.html" 
+    width="100%" height="500" scrolling="no" allowfullscreen></Iframe>
+      </div>
+    );
+  }
+}
+ 
+export default SimsEandM;

@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1e69e12bab4371b657be55d785cfdc6bcd14e863a4d5d91ebe089319b7a0d371
-size 495
+import React, { Component } from "react";
+import Iframe from 'react-iframe'
+import "../../../styles/CollegeBoardDoc.css";
+ 
+class DivingHistory extends Component {
+  render() {
+    return (
+      <div className="myDivingClass">
+      <Iframe src="https://onedrive.live.com/embed?cid=453322899BA6D77B&resid=453322899BA6D77B%21143706&authkey=AFcIkVC5UcfiHww&em=2" 
+      width="100%" height="500px" frameborder="0" scrolling="no"></Iframe>
+      </div>
+    );
+  }
+}
+ 
+export default DivingHistory;

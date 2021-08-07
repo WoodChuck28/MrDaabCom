@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:48e5b17d28c727787a00a7d899fb5291e0968770e366c369b8a1cf4204f1e8ea
-size 446
+import React, { Component } from "react";
+import YoutubeEmbed from "../../../../components/youTubeEmbed";
+import "../../../styles/CollegeBoardDoc.css";
+import "../../../../pages/styles/Diving.css"
+ 
+class frontPike extends Component {
+  render() {
+    return (
+        <div className="App">
+        <h1>Peter S. GHSA State Championship 5134D</h1>
+        <YoutubeEmbed embedId="2KTgZ5C0Sis" />
+      </div>
+    );
+  }
+}
+
+export default frontPike;

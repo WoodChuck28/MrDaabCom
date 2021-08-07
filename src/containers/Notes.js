@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0dde1aa4bb87ca595014695838259b208f356070782f37441159b3590c45407e
-size 405
+import React, { Component } from "react";
+import Iframe from 'react-iframe'
+
+class Notes extends Component {
+  render() {
+    return (
+      <div>
+      <Iframe src="https://onedrive.live.com/embed?cid=453322899BA6D77B&resid=453322899BA6D77B%21131586&authkey=AMYQkTxyLoledH8&em=2" 
+      width="100%" height="600" frameborder="0" scrolling="yes"></Iframe>
+      </div>
+    );
+  }
+}
+ 
+export default Notes;

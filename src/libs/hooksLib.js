@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:26f500a82c26e69d99d0a67fa682bd1382ece381e875833b843e4c1b3a400702
-size 287
+import { useState } from "react";
+
+export function useFormFields(initialState) {
+  const [fields, setValues] = useState(initialState);
+
+  return [
+    fields,
+    function(event) {
+      setValues({
+        ...fields,
+        [event.target.id]: event.target.value
+      });
+    }
+  ];
+}

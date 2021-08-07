@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e7e9b929b8729b73cf49eee6ba80437031833c61168f1817e179a543b5fbedd7
-size 489
+import React, { Component } from "react";
+import Iframe from 'react-iframe'
+import "../../styles/CollegeBoardDoc.css";
+ 
+class PythonSyntax extends Component {
+  render() {
+    return (
+      <div className="mySyntaxClass">
+      <Iframe src="https://onedrive.live.com/embed?cid=453322899BA6D77B&resid=453322899BA6D77B%21133873&authkey=AGTnDJJltOzZ5Js&em=2" 
+      width="100%" height="500" frameborder="0" scrolling="yes"></Iframe>
+      </div>
+    );
+  }
+}
+ 
+export default PythonSyntax;

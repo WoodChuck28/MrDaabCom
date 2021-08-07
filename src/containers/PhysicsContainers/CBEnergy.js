@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:db2e8237c0f79ebae9af295438f3cb226c8dc28746c66012d4f1dcd1e1ea628e
-size 466
+import React, { Component } from "react";
+import Iframe from 'react-iframe'
+import "../styles/CollegeBoardDoc.css";
+ 
+class CBUCM extends Component {
+  render() {
+    return (
+      <div className="myclass">
+      <Iframe src="https://onedrive.live.com/embed?cid=453322899BA6D77B&resid=453322899BA6D77B%21131729&authkey=AB_7xs01PfXolEY&em=2" 
+      width="100%" height="500" frameborder="0" scrolling="yes"></Iframe>
+      </div>
+    );
+  }
+}
+ 
+export default CBUCM;

@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:833995b0974071243cf06773d852098da216ebc702b283c7f5a81ecddf477ae2
-size 1182
+import React, { Component } from "react";
+import "../../../../styles/CollegeBoardDoc.css";
+ 
+class StraightPosition extends Component {
+  render() {
+    return (
+      <div className="myDivingClass">
+           <div className="Image class" style={{textAlign: "center"}}>
+            <img src="./straight.jpg" alt="straight" ></img>
+          </div> 
+          <div className="Content" style={{color: "white"}}>
+              <h3>Straight Position in Diving</h3>
+              <p>The straight position in diving is one of the four diving positions, alongside tuck position, free position and pike position. Until the early 1920s, the straight position was the most common position for all dives. As the sport of diving developed, it became impossible to perform more complicated dives in a straight position because the rotation was too slow. So the pike and tuck – originally known as hunch – positions were introduced.
+                <br></br>
+                The character used to donate a dive in straight position is A. So the dive number for a forward dive in the straight position is 101A.</p>
+          </div>
+      </div>
+    );
+  }
+}
+ 
+export default StraightPosition;

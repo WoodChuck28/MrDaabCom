@@ -1,3 +1,41 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:723f56876512eacfaeb34b11ee41ec17b7bb6625788bb0de004c7916f39ccf4b
-size 939
+import React from 'react'
+import ReactDOM from 'react-dom'
+import './styles/MyForm.css'
+
+export default class NameForm extends React.Component {
+    constructor(props) {
+      super(props);
+      this.state = {value: ''};
+  
+      this.handleChange = this.handleChange.bind(this);
+      this.handleSubmit = this.handleSubmit.bind(this);
+    }
+  
+    handleChange(event) {
+      this.setState({value: event.target.value});
+    }
+  
+    handleSubmit(event) {
+      alert('A name was submitted: ' + this.state.value);
+      event.preventDefault();
+    }
+  
+    render() {
+      return (
+        <form onSubmit={this.handleSubmit}>
+          <label>
+            Name:
+            <input type="text" value={this.state.value} onChange={this.handleChange} />
+          </label>
+          <input type="submit" value="Submit" />
+        </form>
+      );
+    }
+  }
+  
+  ReactDOM.render(
+    <NameForm />,
+    document.getElementById('root')
+  );
+
+  

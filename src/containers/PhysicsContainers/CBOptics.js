@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9aefd4d73cc50c7d5ac6fad0e911a3c60ac688b03bde34b58bb44a883f94ef0e
-size 472
+import React, { Component } from "react";
+import Iframe from 'react-iframe'
+import "../styles/CollegeBoardDoc.css";
+ 
+class CBOptics extends Component {
+  render() {
+    return (
+      <div className="myclass">
+      <Iframe src="https://onedrive.live.com/embed?cid=453322899BA6D77B&resid=453322899BA6D77B%21132068&authkey=ACoHHU9FYlIcVVA&em=2" 
+      width="100%" height="500" frameborder="0" scrolling="yes"></Iframe>
+      </div>
+    );
+  }
+}
+ 
+export default CBOptics;

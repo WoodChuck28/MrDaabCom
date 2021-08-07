@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9c89ab8d54572d23738c212401ff5f4367c479b9ed208374e017a823ebb56b4f
-size 487
+import React, { Component } from "react";
+import Iframe from 'react-iframe'
+import "./styles/CollegeBoardDoc.css";
+ 
+class CollegeBoardKine extends Component {
+  render() {
+    return (
+      <div className="myclass">
+      <Iframe src="https://onedrive.live.com/embed?cid=453322899BA6D77B&resid=453322899BA6D77B%21131726&authkey=ABHgiFOXB15TFjA&em=2" 
+      width="100%" height="500" frameborder="0" scrolling="yes"></Iframe>
+      </div>
+    );
+  }
+}
+ 
+export default CollegeBoardKine;

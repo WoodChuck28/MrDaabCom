@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f5f6fe420ae2c2c617a31069290876f8d21c03ebe3e47fc694754d9d76634ca8
-size 541
+import React from "react";
+import PropTypes from "prop-types";
+
+const YoutubeEmbed = ({ embedId }) => (
+  <div className="video-responsive">
+    <iframe
+      width="853"
+      height="480"
+      src={`https://www.youtube.com/embed/${embedId}`}
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+      title="Embedded youtube"
+    />
+  </div>
+);
+
+YoutubeEmbed.propTypes = {
+  embedId: PropTypes.string.isRequired
+};
+
+export default YoutubeEmbed;
