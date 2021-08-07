@@ -1,3 +1,29 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b4b264ad32cdfb4fd1b9f9c9ed683119550e019123132f7a7b86621ea931b92c
-size 897
+# Global settings applied to the whole site.
+# 'base' is directory to change to before starting build, and
+# 'publish' is the directory to publish (relative to root of your repo).
+# 'command' is your build command.
+
+[build]
+  base    = ""
+  publish = "build"
+  command = "REACT_APP_STAGE=dev npm run build"
+
+# Production context: All deploys to the main
+# repository branch will inherit these settings.
+[context.production]
+  command = "REACT_APP_STAGE=prod npm run build"
+
+# Deploy Preview context: All Deploy Previews
+# will inherit these settings.
+[context.deploy-preview]
+  command = "REACT_APP_STAGE=dev npm run build"
+
+# Branch Deploy context: All deploys that are not in
+# an active Deploy Preview will inherit these settings.
+[context.branch-deploy]
+  command = "REACT_APP_STAGE=dev npm run build"
+
+[[redirects]]
+    from    = "/*"
+    to      = "/index.html"
+    status  = 200
