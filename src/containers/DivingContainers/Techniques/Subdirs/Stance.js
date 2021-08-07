@@ -15,7 +15,7 @@ class Stance extends Component {
             side of the body, and fingers straight.</p>
           </div>
           <div>
-            <img style={{maxHeight: "300px", maxWidth: "500px"}} src="./stance.PNG" alt ="Stance"></img>
+            <img style={{maxHeight: "300px", maxWidth: "500px"}} src="./Stance.PNG" alt ="Stance"></img>
           </div>
 
       </div>
