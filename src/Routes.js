@@ -142,7 +142,7 @@ export default function Routes() {
       <UnauthenticatedRoute exact path="/SimpleMotion">
         <PhysicsSimpleMotion />
       </UnauthenticatedRoute>\
-      <UnauthenticatedRoute exact path="/Kinematics">
+      <UnauthenticatedRoute exact path="/OneDKinematics">
         <PhysicsKinematics />
       </UnauthenticatedRoute>\
       

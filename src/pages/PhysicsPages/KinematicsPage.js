@@ -30,23 +30,23 @@ export default function PhysicsKinematics() {
             <HashRouter>
                 <ul className="header" style={{background: "#001a00"}}>
                 <button type="button" class="btn btn-info" >
-                    <NavLink to="/SimpleMotion/KinematicsVocab" style={{color: "white"}}>Vocabulary</NavLink>
+                    <NavLink to="/OneDKinematics/KinematicsVocab" style={{color: "white"}}>Vocabulary</NavLink>
                 </button>
                 <button type="button" class="btn btn-info" >
-                    <NavLink to="/SimpleMotion/KinematicsNotes" style={{color: "white"}}>Notes</NavLink>
+                    <NavLink to="/OneDKinematics/KinematicsNotes" style={{color: "white"}}>Notes</NavLink>
                 </button>
                 <button type="button" class="btn btn-info" >
-                    <NavLink to="/SimpleMotion/KinematicsPractice" style={{color: "white"}}>Practice</NavLink>
+                    <NavLink to="/OneDKinematics/KinematicsPractice" style={{color: "white"}}>Practice</NavLink>
                 </button>
                 <button type="button" class="btn btn-info" >
-                    <NavLink to="/SimpleMotion/KinematicsSimulation" style={{color: "white"}}>Vector Simulation</NavLink>
+                    <NavLink to="/OneDKinematics/KinematicsSimulation" style={{color: "white"}}>Vector Simulation</NavLink>
                 </button>
                 </ul>
                 
-                <Route path="/SimpleMotion/KinematicsVocab" component={SimpleMotionVocab}></Route>
-                <Route path="/SimpleMotion/KinematicsNotes" component={SimpleMotionNotes}></Route>
-                <Route path="/SimpleMotion/KinematicsPractice" component={SimpleMotionPractice}></Route>
-                <Route path="/SimpleMotion/KinematicsSimulation" component={MotionSimulation}></Route>
+                <Route path="/OneDKinematics/KinematicsVocab" component={SimpleMotionVocab}></Route>
+                <Route path="/OneDKinematics/KinematicsNotes" component={SimpleMotionNotes}></Route>
+                <Route path="/OneDKinematics/KinematicsPractice" component={SimpleMotionPractice}></Route>
+                <Route path="/OneDKinematics/KinematicsSimulation" component={MotionSimulation}></Route>
             </HashRouter>
         </div>
       </div>
