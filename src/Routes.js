@@ -38,6 +38,7 @@ import NewPhysics from "./pages/NewPhysics";
 import PhysicsIntro from "./pages/PhysicsPages/IntroPage";
 import PhysicsSimpleMotion from "./pages/PhysicsPages/SimpleMotionPage";
 import Techniques from "./containers/DivingContainers/Techniques/Techniques";
+import PhysicsKinematics from "./pages/PhysicsPages/KinematicsPage";
 
 export default function Routes() {
   return (
@@ -140,6 +141,9 @@ export default function Routes() {
       </UnauthenticatedRoute>\
       <UnauthenticatedRoute exact path="/SimpleMotion">
         <PhysicsSimpleMotion />
+      </UnauthenticatedRoute>\
+      <UnauthenticatedRoute exact path="/Kinematics">
+        <PhysicsKinematics />
       </UnauthenticatedRoute>\
       
       {/* Finally, catch all unmatched routes */}
