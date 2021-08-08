@@ -7,6 +7,7 @@ import {
 
 import Stance from "./Subdirs/Stance";
 import Walk from "./Subdirs/Walk";
+import ArmSwing from "./Subdirs/ArmSwing";
 
 import { Card } from "@material-ui/core";
 
@@ -27,7 +28,7 @@ class Techniques extends Component {
         <div className="content">
           <Route path="/stance" component={Stance}/>
           <Route path="/walk" component={Walk}/>
-          <Route path="/armswing" component={Stance}/>
+          <Route path="/armswing" component={ArmSwing}/>
           <Route path="/hurdle" component={Stance}/>
         </div>
         <Card style={{textAlign: "center", background: "inherit"}}>
